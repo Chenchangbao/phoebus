@@ -1,0 +1,148 @@
+li {list-style-type:none;}
+.oneLine{
+    float:left;
+    margin-bottom: 20px;
+}
+.linetop{
+    overflow: hidden;
+    margin-right: 10px;
+}
+.linetopleft{
+    float: left;
+    overflow: hidden;
+    min-height: 50px;
+    width: 175px;
+    /* border: 1px black solid; */
+    margin-bottom: 10px;
+    padding-left: 40px;
+    background-image: url(/business/images/navigation.png);
+    /* background-color: #595757; */
+    padding-top: 10px;
+    color: white;
+}
+.linetopright{
+    float:left;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.linecontent{
+    min-height: 200px;
+    width: 156px;
+    border: 1px black solid;
+    margin-left: 16px;
+}
+.topleft{
+    float:left;
+    margin-right: 10px;
+    font-size: x-large;
+}
+.topmiddle{
+    float:left;
+    margin-right: 10px;
+}
+.topimg{
+    float: left;
+    margin-left: 0px;
+    margin-top: 3px;
+}
+.topright{
+    float:left;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.listStyle{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.iconStyle{
+    margin-top: 3px;
+}
+.circle {
+    width: 10px;
+    height: 10px;
+    background: #d09e9e;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 8px;
+}
+.deleteStyle{
+    margin-top: 3px;
+    margin-left: 25px;
+}
+.mytabs {
+    float: left;
+    width: 100%;
+    margin: -15px 10px 12px 12px;
+}
+.mytabs ul 
+{
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    color: #666666;
+}
+.mytabs ul li {
+    float: left;
+    line-height: 24px;
+    margin: 0;
+    padding: 3px 15px 3px 15px;
+    border: 1px solid #d3d3d3;
+    font-size: 12px;
+   
+}
+.mytab-nav{
+     background-color: white;
+     cursor:pointer;
+}
+.mytab-nav-action{
+    background-color: #3a8cbb;
+    color: #fff;
+    cursor:pointer;
+}
+.square{
+    width:3px;
+    height:13px;
+    background-color:black;
+    display:inline-block;
+    margin-right:10px;
+}
+.circleBig {
+    width: 12px;
+    height: 12px;
+    background: black;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 6px;
+    display: inline-block;
+    margin-left: 1px;
+}
+.circleTop {
+    width: 16px;
+    height: 16px;
+    background: #d09e9e;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 1px;
+    margin-top: 3px;
+}
+.stateCode2{
+    color:#009900;
+}
+.circleState2{
+    width: 10px;
+    height: 10px;
+    background:#009900;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 8px;
+
+}
+.begindo{
+    margin: 10px 0px 0px 30px;
+}

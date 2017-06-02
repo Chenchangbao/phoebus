@@ -1,0 +1,50 @@
+<section class="content-header">   
+   <sn-breadcrumb datalist="crumbBaseData"></sn-breadcrumb>
+      <h4><div class="square"></div><strong>应用报告</strong></h4>
+   <div style="height: 5px"></div>
+</section>
+
+<section class="content" >
+  
+  <div class="main">
+      <div class="left">
+            <div class="demo">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="main-timeline">
+                                
+                                
+                                <div class="timeline" ng-repeat="sys in timeLine">
+                                    <div class="timeline-content">
+                                        <span class="date">
+                                            <span class="day">{{sys.day}}</span>
+                                            <span class="month">{{sys.month}}</span>
+                                            <span class="year">{{sys.year}}</span>
+                                        </span>
+                                        <h2 class="title {{sys.status}}">{{sys.versionName}}</h2>
+                                        <p class="description1">
+                                            <span>状态：{{sys.status}}</span> </br>
+                                            <span>环境实例：{{sys.envName}}</span> </br>
+                                            <span>包：{{sys.pkgName}}</span> </br>
+                                            <span>创建时间：{{sys.createTime}}</span></br>
+                                            <span>描述：{{sys.statusDesc}}</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </div>
+      <div class="right">
+          <iframe src="http://eitpsit.cnsuning.com/itp-web-in/processDraftFilter.do?businessTemplateId=NSOA2050" width="100%" height="90%" style="min-height: 1205px;"></iframe>
+      </div>
+  </div>
+	
+</section>
+
+
+

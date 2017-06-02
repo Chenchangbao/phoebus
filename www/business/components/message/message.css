@@ -1,0 +1,70 @@
+.sn-table{
+    border: 1px solid #e0e0e0;
+    width: 100%;
+    border-collapse: collapse;
+}
+.sn-table tr:first-child {
+    background-color: #eaedf1;
+}
+
+.sn-table td, .sn-table th {
+    border: 1px solid #e0e0e0;
+    height: 38px;
+    text-align: center;
+}
+.sn-table th {
+    font-size: 14px;
+    color: #000;
+    font-weight: 700;
+}
+.table-body {
+    padding: 10px 0;
+}
+
+.margin-right-10 {
+    margin-right: 10px;
+}
+
+.active{
+    cursor:pointer;
+}
+.active:hover{
+    color:#3a8cbb;
+}
+。inactive{
+     color: #666;！important
+}
+
+.error{
+    color:red;
+}
+.success{
+    color:green;
+}
+.partCol1{
+    min-width: 116px;
+}
+.text_overflow {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100px;
+}
+.daterangepicker.show-calendar .calendar.left,
+.daterangepicker.show-calendar .calendar.right {
+    display: inline-block;
+}
+div.form-group.daterangemessage{
+	border: 1px solid #ccc;
+    background-color: #eee;
+    position: relative;
+}
+div.form-group.daterangemessage input{
+    border: 0;
+}
+div.form-group.daterangemessage span{
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+

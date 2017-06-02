@@ -1,0 +1,15 @@
+<section class="content-header">
+    <sn-breadcrumb datalist="crumbBaseData"></sn-breadcrumb>
+</section>
+
+<section class="content">
+    <!-- 新建代码库BEGIN-->
+    <div ng-include="'business/components/flow/create/flowGroup.html'">
+    </div>
+</section>
+<div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+        <button type="button" class="btn btn-default" ng-click="cancel()">取消</button>
+        <button type="button" class="btn btn-primary" ng-click="save()">提交</button>
+    </div>
+</div>

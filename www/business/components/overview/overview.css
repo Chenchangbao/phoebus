@@ -1,0 +1,181 @@
+.circleCon{
+    width: 100%;
+    min-height: 340px;
+}
+.circle1 {
+    width: 130px;
+    height: 130px;
+    background: #0066ff;
+    -moz-border-radius: 75px;
+    -webkit-border-radius: 75px;
+    border-radius: 75px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+}
+.circle2 {
+    width: 130px;
+    height: 130px;
+    background: #0099ff;
+    -moz-border-radius: 75px;
+    -webkit-border-radius: 75px;
+    border-radius: 75px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+}
+.circle3 {
+    width: 130px;
+    height: 130px;
+    background: #33ccff;
+    -moz-border-radius: 75px;
+    -webkit-border-radius: 75px;
+    border-radius: 75px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+}
+.firstContent{
+    padding-top: 33%;
+}
+.secondContent{
+    color: blue;
+}
+.left{
+    display: inline-block;
+   
+}
+.littleRound{
+    display: inline-block;
+    position: absolute;
+    left: 110px;
+    top: 110px;
+}
+.div-relative{
+    position: relative;
+    width: 33%;
+    height: 200px;
+    float: left;
+
+}
+#main1{
+    position: absolute;
+    width:350px;
+    height:350px; 
+    display: inline-block;
+}
+#main2{
+    position: absolute;
+    width:350px;
+    height:350px; 
+    display: inline-block;
+}
+#main3{
+    position: absolute;
+    width:350px;
+    height:350px; 
+    display: inline-block;
+}
+
+.squareCon{
+    margin-left: 70px;
+    border: 1px solid red;
+    width: 230px;
+    min-height: 140px;
+    color: white;
+    display: inline-block;
+}
+.squareFirst{
+    background-color: #6699ff;
+    min-height: 70px;
+    text-align: center;
+}
+.squareSecond{
+    background-color: #99ccff;
+    min-height: 70px;
+}
+.square-10{
+    font-size: 25px;
+    padding-top: 10px;
+}
+.square-4{
+    margin-left: 20px;
+    padding-top: 10px;
+    margin-right: 25px;
+    display: inline-block;
+}
+.square-4-2{
+    color: #0066ff
+}
+
+
+.main{
+    min-width: 800px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+.mainleft{
+    width: 75%;
+    border: 1px solid #ccc;
+    float: left;
+    min-height: 800px;
+    padding-top: 50px;
+}
+.mainright{
+    width: 25%;
+    border: 1px solid #ccc;
+    float: left;
+    min-height: 800px;
+}
+
+.relative-div{
+    position: relative;
+    min-width: 150px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+.absolute-div{
+    left: 40px;
+    position: absolute;
+    top: -10px;
+    background-color: white;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.content-div{
+    margin-left: 145px;
+    padding: 15px;
+}  
+.contentRight{
+    margin-left: 30px;
+}
+.eventNotice{
+    position: relative;
+    border-left: 1px solid #ccc;
+    min-height: 50px;
+    margin-left: 20px;
+}
+.systemNotice{
+    margin-bottom: 15px;
+}
+    
+.circle-div{
+    left: -5px;
+    position: absolute;
+    top: -5px;
+    background-color: #666666;
+    border-radius: 50%;
+    width: 9px;
+    height: 9px;
+}
+.lookMore{
+    margin-left: 10px;
+}

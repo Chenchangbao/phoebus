@@ -1,0 +1,86 @@
+<section class="content-header">   
+   <sn-breadcrumb datalist="crumbBaseData"></sn-breadcrumb>
+    <div class="mytabs">
+            <ul id="mytabs">
+                <li class="mytab-nav" ng-class="{true: 'mytab-nav-action', false: 'mytab-nav'}[isFirst]" ng-click="change(1)">详情</li>
+                <li class="mytab-nav" ng-class="{true: 'mytab-nav-action', false: 'mytab-nav'}[isSecond]" ng-click="change(2)">执行历史</li>
+				<li class="mytab-nav" ng-class="{true: 'mytab-nav-action', false: 'mytab-nav'}[isSecond]" ng-click="change(2)">通知</li>
+            </ul>
+    </div>
+   <div style="height: 5px"></div>
+</section>
+
+<section class="content" >
+  
+    <div class="panel panel-default" ng-show="initNum == 2">
+        <div class="panel-heading">
+            <h3 class="panel-title h3-inline"><span>流水线名称：Example</span><span style="margin-left:30px;">归属项目：持续交付</span></h3>
+        </div>
+		<div>
+			<button class="btn btn-primary reverse begindo" type="button" ng-click="downLoad()">开始执行</button>
+			<sapn ng-show="statusCode == 2">
+			<span style="margin-left:30px;">执行结果：</span><span style="margin-left:20px;">成功</span>
+			<span style="margin-left:30px;">执行时间：</span><span style="margin-left:20px;">{{myDate| date:"yyyy/dd/MM  h:mma"}}</span>
+			<span>
+		</div>
+		
+        <div class="panel-body">
+            <div class="oneLine" ng-repeat="oneProcess in processList"> 
+                <div class="linetop">
+                    <div class="linetopleft" >
+                        <div class="topleft">{{$index+1}}</div>
+                        <div class="topmiddle"">
+                            <div class="topmiddleStep">{{oneProcess.name}}</div>
+                            <div class="topmiddleNum"><span>{{oneProcess.childListNum}}</span>参数</div>
+                        </div>
+                        <div class="topimg" >
+							<!--未执行-->
+							<span class="fu fu-ellipsis" ng-show="statusCode == 1"></span>
+							<!--成功-->
+							<span class="fu fu-check-circle stateCode2" ng-show="statusCode == 2"></span>
+							<!--失败-->
+							<span class="fu fu-cross-circle stateCode2" ng-show="statusCode == 3"></span>
+						</div>
+                    </div>
+                </div>
+                <div class="linecontent">
+                        <div class="listStyle">
+							<!--未执行-->
+							<span class="circleBig" ng-show="statusCode == 1"></span>
+							<!--成功-->
+							<span class="fu fu-check-circle stateCode2" ng-show="statusCode == 2"></span>
+							<!--失败-->
+							<span class="fu fu-cross-circle stateCode2" ng-show="statusCode == 3"></span>
+                            <span ng-show="oneProcess.name == '开始'"">参数列表</span>
+                            <span ng-show="oneProcess.name != '结束' && oneProcess.name !='开始'">任务列表</span>
+                            <span ng-show="oneProcess.name == '结束'"">流水线现有1个阶段</span>
+                        </div>
+
+                        <div class="listStyle" ng-repeat="oneList in oneProcess.childList">
+							<!--未执行-->
+							<div class="circle" ng-show="statusCode == 1"></div>
+							<!--成功-->
+							<div class="fu fu-check-circle stateCode2" ng-show="statusCode == 2"></div>
+							<!--失败-->
+							<div class="fu fu-cross-circle stateCode2" ng-show="statusCode == 3"></div>
+                            <span>{{oneList.name}}</span>
+                        </div>
+
+                        <div class="listStyle">
+                            <progress value="{{downLoadPro}}" max="100">
+                        </div>  
+
+						<div class="listStyle">
+                            <span>任务总数{{oneProcess.childList.length}}</span>
+                        </div>                 
+                </div>
+            </div>
+        </div>
+    </div>
+      <div class="panel panel-default" ng-show="initNum == 1">
+        新增流水线1
+    <div>
+</section>
+
+
+

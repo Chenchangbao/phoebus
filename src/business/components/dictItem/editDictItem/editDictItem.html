@@ -1,0 +1,92 @@
+<div class="modal fade in" ng-controller="DictItemEditCtrl">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" ng-click="close()"><span aria-hidden="true">&times;</span><span
+                        class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title">数据字典管理</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" name="dictItemForm">
+                    <div class="form-group">
+                        <label for="typeCode" class="col-sm-2 control-label"><span class="required">*</span>类型</label>
+                        <div class="col-sm-4">
+                            <select ng-disabled="dictItem.itemId!=null" class="form-control" ng-model="dictItem.typeCode" name="typeCode" required
+                                    ng-options="option.typeCode as option.typeName for option in typeCodeList">
+                                <option value="">请选择类型</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-5">
+                            <p class="form-control-static error"
+                               ng-if="dictItemForm.typeCode.$error.required && dictItemForm.typeCode.$invalid && dictItemForm.typeCode.$dirty">
+                                <i class="fu fu-cross-circle" aria-hidden="true">类型不能为空</i>
+                            </p>
+                            <p class="form-control-static success"
+                               ng-if="dictItemForm.typeCode.$valid && dictItemForm.typeCode.$dirty">
+                                <i class="fu fu-check-circle" aria-hidden="true"></i>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label"><span class="required">*</span>值</label>
+                        <div class="col-sm-4">
+                            <input ng-disabled="dictItem.itemId!=null" type="input" ng-model="dictItem.itemCode" class="form-control" name="itemCode"
+                                   ng-maxlength="10" placeholder="请输入值，最多10位" required ng-change=""/>
+                        </div>
+                        <div class="col-sm-5">
+                            <p class="form-control-static error"
+                               ng-if="(dictItemForm.itemCode.$error.maxlength) && dictItemForm.itemCode.$touched && !dictItemForm.itemCode.$error.required">
+                                <i class="fu fu-cross-circle" aria-hidden="true">最多10位</i>
+                            </p>
+                            <p class="form-control-static error"
+                               ng-if="dictItemForm.itemCode.$error.required && dictItemForm.itemCode.$touched">
+                                <i class="fu fu-cross-circle" aria-hidden="true">不能为空</i>
+                            </p>
+                            <p class="form-control-static success"
+                               ng-if="dictItemForm.itemCode.$valid && dictItemForm.itemCode.$touched">
+                                <i class="fu fu-check-circle" aria-hidden="true"></i>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label"><span class="required">*</span>名称</label>
+                        <div class="col-sm-4">
+                            <input type="input" ng-model="dictItem.itemName" class="form-control" name="itemName"
+                                   ng-maxlength="50" placeholder="请输入名称，最多50位" required ng-change=""/>
+                        </div>
+                        <div class="col-sm-5">
+                            <p class="form-control-static error"
+                               ng-if="(dictItemForm.itemName.$error.maxlength) && dictItemForm.itemName.$touched && !dictItemForm.itemName.$error.required">
+                                <i class="fu fu-cross-circle" aria-hidden="true">最多50位</i>
+                            </p>
+                            <p class="form-control-static error"
+                               ng-if="dictItemForm.itemName.$error.required && dictItemForm.itemName.$touched">
+                                <i class="fu fu-cross-circle" aria-hidden="true">不能为空</i>
+                            </p>
+                            <p class="form-control-static success"
+                               ng-if="dictItemForm.itemName.$valid && dictItemForm.itemName.$touched">
+                                <i class="fu fu-check-circle" aria-hidden="true"></i>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="itemDesc" class="col-sm-2 control-label">详情</label>
+                        <div class="col-sm-4">
+                            <textarea name="itemDesc" placeholder="请输入详情"
+                                      maxlength="500" ng-model="dictItem.itemDesc" cols="46" rows="5"/><span>{{dictItem.itemDesc.length || 0}}/500</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-primary" ng-click="save()"
+                                    ng-disabled="dictItemForm.$invalid">
+                                保存
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

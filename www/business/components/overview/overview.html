@@ -1,0 +1,142 @@
+<section class="content-header">
+    <h4 class="text-primary"><strong>Phoebus</strong></h4>
+</section>
+<section class="content">
+    <div class="circleCon">
+        <div class="div-relative"  ng-click="switchEff(1)">
+            <div id="main1" ng-show="clickShow == 1"></div>
+            <div class="littleRound" ng-show="clickShow != 1">
+                <div class="circle1">
+                    <div class="firstContent">22</div>
+                    <div>待处理</div>
+                </div>
+                <div class="left">
+                    <div><span>需求：</span><span class="secondContent">{{ vm.myWorkItems.pending.requireMents}}</span></div>
+                    <div><span>任务：</span><span class="secondContent">{{ vm.myWorkItems.pending.requireMents}}</span></div>
+                    <div><span>缺陷：</span><span class="secondContent">{{ vm.myWorkItems.pending.requireMents}}</span></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="div-relative"  ng-click="switchEff(2)">
+            <div id="main2" ng-show="clickShow == 2"></div>
+            <div class="littleRound" ng-show="clickShow != 2">
+                <div class="circle2">
+                    <div class="firstContent">22</div>
+                    <div>我关注</div>
+                </div>
+                <div class="left">
+                    <div><span>需求：</span><span class="secondContent"> {{vm.myWorkItems.focus.requireMents}}</span></div>
+                    <div><span>任务：</span><span class="secondContent"> {{vm.myWorkItems.focus.requireMents}}</span></div>
+                    <div><span>缺陷：</span><span class="secondContent"> {{vm.myWorkItems.focus.requireMents}}</span></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="div-relative" ng-click="switchEff(3)">
+            <div id="main3" ng-show="clickShow == 3"></div>
+            <div class="littleRound"  ng-show="clickShow != 3">
+                <div class="circle3">
+                    <div class="firstContent">22</div>
+                    <div>我创建</div>
+                </div>
+                <div class="left">
+                    <div><span>需求：</span><span class="secondContent"> {{vm.myWorkItems.created.requireMents}}</span></div>
+                    <div><span>任务：</span><span class="secondContent"> {{vm.myWorkItems.created.requireMents}}</span></div>
+                    <div><span>缺陷：</span><span class="secondContent"> {{vm.myWorkItems.created.requireMents}}</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ 
+
+    <div class="main">
+        <div class="mainleft">
+                <div class="squareCon" ng-repeat="one in square">
+                <div class="squareFirst">
+                    <div class="square-10">{{one.num}}</div>
+                    <div>{{one.name}}</div>
+                </div> 
+                <div class="squareSecond">
+                    <div class="square-4" ng-repeat="detailOne in one.detailIfon">
+                        <span>{{detailOne.name}}：</span><span class="square-4-2">{{detailOne.num}}</span>
+                    </div>
+                </div> 
+                </div>
+                
+
+                <!--<div class="squareCon" >
+                <div class="squareFirst">
+                    <div class="square-10"></div>
+                    <div>我的项目</div>
+                </div> 
+                <div class="squareSecond">
+                    <div class="square-4">
+                        <span>开发中</span><span class="square-4-2">{{project.devloping}}</span>
+                    </div>
+                    <div class="square-4">    
+                        <span>已暂停：</span><span class="square-4-2">{{detailOne.suspend}}</span>
+                    </div>
+                    <div class="square-4">    
+                        <span>已结束：</span><span class="square-4-2">{{detailOne.finish}}</span>
+                    </div>
+                </div> 
+                </div>
+                <div class="squareCon" >
+                <div class="squareFirst">
+                    <div class="square-10"></div>
+                    <div>我的应用</div>
+                </div> 
+                <div class="squareSecond">
+                    <div class="square-4">
+                        <span>使用中</span><span class="square-4-2">{{app.active}}</span>
+                        </div>
+                    <div class="square-4">
+                        <span>已下线：</span><span class="square-4-2">{{app.offLine}}</span>
+                    </div>
+                </div> 
+                </div>  
+                <div class="squareCon" >  
+                <div class="squareFirst">
+                    <div class="square-10"></div>
+                    <div>我的版本</div>
+                </div> 
+                <div class="squareSecond">
+                    <div class="square-4">
+                        <span>开发中</span><span class="square-4-2">{{version.devloping}}</span>
+                    </div>
+                    <div class="square-4">
+                        <span>已封板：</span><span class="square-4-2">{{version.unFreezen}}</span>
+                    </div>     
+                    <div class="square-4">
+                        <span>已发布：</span><span class="square-4-2">{{version.deployed}}</span>
+                    </div>
+                    <div class="square-4">
+                        <span>已归档：</span><span class="square-4-2">{{version.arichive}}</span>
+                    </div>
+                </div> 
+                </div>-->
+        </div>
+        <div class="mainright">
+            <div class="relative-div">
+                <div class="absolute-div">系统消息</div>
+            </div>
+            <div ng-repeat="one in listone" class="systemNotice">
+                <span>【{{one.state}}】</span><span>{{one.content}}</span>
+            </div>
+            <a class="lookMore">查看更多>></a>
+
+             <div class="relative-div">
+                <div class="absolute-div">事件通知</div>
+            </div>
+             <div ng-repeat="one in listone" class="eventNotice">
+                 <div class="circle-div"></div>
+                 <span>【{{one.state}}】</span><span>{{one.content}}</span>
+            </div>
+            <a class="lookMore">查看更多>></a>
+        </div>
+    </div>
+</section>
+

@@ -1,0 +1,62 @@
+<section class="content" style="padding: 30px 0;">
+    <h4>
+        <div class="square"></div>
+        <strong>流水线管理</strong>
+    </h4>
+    <form class="form-inline">
+        <div class="form-group">
+            <select class="form-control" ng-model="query.sysId" name="sysId" ng-options="option.projectId as option.projectName for option in sysList">
+                <option value="">请选择所属应用</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" ng-model="query.flowName" name="flowName" placeholder="请输入名称">
+        </div>
+        <div class="form-group">
+            <button class="btn btn-default" ng-click="paginationSearch(0,pagination.pageSize)">查询</button>
+        </div>
+        <input type="reset" ng-click="reset()"/>
+        <div class="pull-right">
+            <a href="javascript:void(0)" class="text-primary" ui-sref="Header.createFlow()" style="margin-right: 20px;">新增流水线</a>
+        </div>
+    </form>
+
+    <div class="table-body">
+        <table class="sn-table">
+            <tr>
+                <th>名称</th>
+                <th>所属应用</th>
+                <th>执行总次数</th>
+                <th>创建者</th>
+                <th style="width: 20%">操作</th>
+            </tr>
+            <tr ng-repeat="flowItem in pagination.data">
+                <td>
+                    <a href="javascript:;" ui-sref="Header.detailFlow({flowId: flowItem.id})">{{flowItem.flowName}}</a>
+                </td>
+                <td>
+                    <span ng-repeat="sys in sysList">
+                        <span ng-if="sys.projectId==flowItem.sysId">
+                            {{sys.projectName}}
+                        </span>
+                    </span>
+                </td>
+                <td>
+                    {{flowItem.executeTotal}}
+                </td>
+                <td>
+                    {{flowItem.createUser}}
+                </td>
+                <td>
+                    <a href="javascript:;" ui-sref="Header.editFlow({flowId: flowItem.id})">修改</a>
+                    <a href="javascript:;" ng-click="delete(flowItem.id,flowItem.flowName);">删除</a>
+                </td>
+            </tr>
+            <tr ng-if="!pagination.data||pagination.data.length<1">
+                <td colspan="7">暂无数据</td>
+            </tr>
+        </table>
+    </div>
+    <div style="float: right" sn-pager page="pagination.page" page-size="pagination.pageSize" total="pagination.totalCount"
+         paging-action="paginationSearch(page, pageSize,total)"></div>
+</section>

@@ -1,0 +1,20 @@
+.h3-inline{
+    display: inline;
+}
+
+.red{
+    color: red;
+    padding-right: 5px;
+}
+
+.error {
+    color: #f60;
+}
+
+.success {
+    color: #78be25;
+}
+
+.small-i {
+    margin-top: 3px;
+}

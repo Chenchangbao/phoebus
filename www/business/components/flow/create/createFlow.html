@@ -1,0 +1,66 @@
+<section class="content-header">
+    <sn-breadcrumb datalist="crumbBaseData"></sn-breadcrumb>
+</section>
+
+<section class="content">
+    <!-- 新建代码库BEGIN-->
+    <div ng-include="'business/components/flow/create/flowGroup.html'">
+    </div>
+
+    <div ng-show="initNum == 1">
+        <form name="flowForm" class="form-horizontal" novalidate>
+            <div class="form-group">
+                <label class="col-sm-2 control-label"><span class="required">*</span>流水线名称</label>
+                <div class="col-sm-4">
+                    <input type="input" ng-model="flow.flowName" class="form-control" name="flowName"
+                           ng-maxlength="50" placeholder="请输入流水线名称，最多50位" required ng-change="isFlowNameRepeat()"/>
+                </div>
+                <div class="col-sm-5">
+                    <p class="form-control-static error"
+                       ng-if="(flowForm.flowName.$error.maxlength) && flowForm.flowName.$touched && !flowForm.flowName.$error.required">
+                        <i class="fu fu-cross-circle" aria-hidden="true">最多50位</i>
+                    </p>
+                    <p class="form-control-static error"
+                       ng-if="flowForm.flowName.$error.required && flowForm.flowName.$touched">
+                        <i class="fu fu-cross-circle" aria-hidden="true">不能为空</i>
+                    </p>
+                    <p class="form-control-static success"
+                       ng-if="!flowNameRepeat && flowForm.flowName.$valid && flowForm.flowName.$touched">
+                        <i class="fu fu-check-circle" aria-hidden="true"></i>
+                    </p>
+                    <p class="form-control-static error" ng-if="flowNameRepeat && !flowForm.flowName.$error.required && !flowForm.flowName.$error.maxlength">
+                        <i class="fu fu-cross-circle small-i" aria-hidden="true"></i>该流水线名称已存在
+                    </p>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label"><span class="required">*</span>所属系统</label>
+                <div class="col-sm-4">
+                    <select select2="sysIdSelect2" class="form-control" ng-model="flow.sysId" name="sysId" required
+                            ng-options="option.projectId as option.projectName for option in sysList"
+                            ng-change="sysIdChange()">
+                        <option value="">请选择所属系统</option>
+                    </select>
+                </div>
+                <div class="col-sm-5">
+                    <p class="form-control-static error"
+                       ng-if="flowForm.sysId.$error.required && flowForm.sysId.$invalid && flowForm.sysId.$dirty">
+                        <i class="fu fu-cross-circle" aria-hidden="true">所属系统不能为空</i>
+                    </p>
+                    <p class="form-control-static success"
+                       ng-if="flowForm.sysId.$valid && flowForm.sysId.$dirty">
+                        <i class="fu fu-check-circle" aria-hidden="true"></i>
+                    </p>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+<div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+        <button type="button" class="btn btn-default" ng-click="cancel()">取消</button>
+        <button type="button" class="btn btn-primary" ng-click="nextStep()" ng-disabled="flowForm.$invalid" ng-show="initNum == 1">下一步</button>
+        <button type="button" class="btn btn-default" ng-click="previousStep()" ng-show="initNum == 2">上一步</button>
+        <button type="button" class="btn btn-primary" ng-click="save()" ng-show="initNum == 2">提交</button>
+    </div>
+</div>

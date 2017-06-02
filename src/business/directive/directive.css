@@ -1,0 +1,51 @@
+.btn-group .btn.authrity-time-button.btn-active {
+    background-color: #047ea8!important;
+    color: white;
+}
+
+ul.sn-tree>li>i {
+    margin: 0 5px 0 5px;
+}
+
+ul.sn-tree>li>i.transparent {
+    color: transparent;
+}
+
+ul.sn-tree>li>span {
+    display: inline-block;
+    margin: 5px 0 5px 5px;
+}
+
+ul.sn-tree>li.unfold>ul {
+    display: block;
+}
+
+ul.sn-tree>li.fold>ul {
+    display: none;
+}
+
+sn-tree2>div {
+    margin: 0px 0 20px 0;
+    border: 1px solid #d2d6de;
+    position: relative;
+    width: 400px;
+    min-height: 400px;
+}
+
+sn-tree2>div>ul {
+    padding: 0 0 0 10px;
+}
+
+sn-tree2>div li {
+    position: relative;
+}
+
+sn-tree2>div li::after {
+    content: '';
+    width: 400px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}

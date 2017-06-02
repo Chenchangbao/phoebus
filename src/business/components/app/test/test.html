@@ -1,0 +1,51 @@
+<section class="content-header">   
+   <sn-breadcrumb datalist="crumbBaseData"></sn-breadcrumb>
+      <h4><div class="square"></div><strong>应用列表</strong></h4>
+   <div style="height: 5px"></div>
+</section>
+
+<section class="content" >
+  
+   <form class="form-inline">
+		 <div class="form-group">
+            <select class="form-control" ng-model="status" ng-options="status.value as status.name for status in statusList">
+                <option value="">请选择状态</option>
+            </select>
+        </div>
+         <div class="form-group">
+             <input type="text" class="form-control" placeholder="请输入测试用例名称" ng-model="taskName">
+        </div>
+   
+        <div class="form-group">
+            <button class="btn btn-default" ng-click="search()"">查询</button>
+        </div>
+         <input ng-click="reset()" type="reset"/>
+         <div class="form-group">
+			<button class="btn btn-default" ng-click="createApp()" >新增测试用例</button>
+		</div>
+    </form>
+    <!-- 蛙测 -->
+	<div class="table-body">
+		<table class="sn-table" style="table-layout: fixed">
+			<tr>
+				<th width="13%">用例名称</th>
+				<th width="7%">状态</th>
+				<th width="22%">描述</th>
+				<th width="20%">创建时间</th>
+			</tr>
+			<tr ng-repeat="testTask in testTaskList">
+				<td>{{testTask.taskName}}</td>
+				<td>{{testTask.status}}</td>
+				<td>{{testTask.description}}</td>
+				<td>{{testTask.createTime}}</td>
+			</tr>
+		</table>
+	</div>
+	
+	<!-- 安全扫描 -->
+	<div style="float:right" sn-pager page="pageIndex" page-size="pageSize" total="totalCount" paging-action="paging1(page, pageSize, total)"></div>
+	
+</section>
+
+
+

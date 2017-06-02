@@ -1,0 +1,59 @@
+<section class="content-header">   
+   <sn-breadcrumb datalist="crumbBaseData"></sn-breadcrumb>
+      <h4><div class="square"></div><strong>应用列表</strong></h4>
+   <div style="height: 5px"></div>
+</section>
+
+<section class="content" >
+  
+   <form class="form-inline">
+		 <div class="form-group">
+            <select class="form-control" ng-model="status" ng-options="status.value as status.name for status in statusList">
+                <option value="">请选择状态</option>
+            </select>
+        </div>
+         <div class="form-group">
+             <input type="text" class="form-control" placeholder="请输入应用名称" ng-model="appName">
+        </div>
+   
+        <div class="form-group">
+            <button class="btn btn-default" ng-click="search()"">查询</button>
+        </div>
+         <input ng-click="reset()" type="reset"/>
+        
+    </form>
+	<div class="table-body">
+		<table class="sn-table" style="table-layout: fixed">
+			<tr>
+				<th width="13%">应用名称</th>
+				<th width="7%">运行状态</th>
+				<th width="22%">需求</th>
+				<th width="8%">任务</th>
+				<th width="15%">缺陷</th>
+				<th width="15%">版本</th>
+				<th width="20%">管理员</th>
+			</tr>
+			<tr ng-repeat="app in appList">
+				<td><a href="javascript:void(0)"  ui-sref="Header.appProcess()" >{{app.appName}}</a></td>
+				<td>{{app.status}}</td>
+				<td>{{app.requirements}}</td>
+				<td>{{app.tasks}}</td>
+				<td>{{app.bugs}}</td>
+				<td>{{app.versions}}</td>
+				<td>{{app.appAdmin}}</td>
+			</tr>
+			
+		</table>
+	</div>
+	<div style="float:right" sn-pager page="pageIndex" page-size="pageSize" total="totalCount" paging-action="paging1(page, pageSize, total)"></div>
+	<div class="relative-div">
+		<div class="absolute-div">快捷菜单</div>
+		<div class="content-div">
+			<button class="btn btn-primary reverse" ng-click="showDialog()" type="button">新增应用</button>
+			<button class="btn btn-primary reverse contentRight" type="button">流水线</button>
+		</div>
+	</div>
+</section>
+
+
+
