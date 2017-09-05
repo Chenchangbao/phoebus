@@ -1,0 +1,976 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>I02告警阈值设置</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/i02告警阈值设置/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/i02告警阈值设置/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (左侧菜单 (设置)) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15168" class="ax_default box_1">
+        <div id="u15168_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15169" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- 表格1 (表格) -->
+      <div id="u15170" class="ax_default" data-label="表格1">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15171" class="ax_default table_cell">
+          <img id="u15171_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u15172" class="text" style="visibility: visible;">
+            <p><span>性能概览</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15173" class="ax_default table_cell">
+          <img id="u15173_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u15174" class="text" style="visibility: visible;">
+            <p><span>关键请求过程</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15175" class="ax_default table_cell">
+          <img id="u15175_img" class="img " src="images/a01性能概览/u120.png"/>
+          <!-- Unnamed () -->
+          <div id="u15176" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15177" class="ax_default table_cell">
+          <img id="u15177_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u15178" class="text" style="visibility: visible;">
+            <p><span>系统拓扑</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15179" class="ax_default table_cell">
+          <img id="u15179_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u15180" class="text" style="visibility: visible;">
+            <p><span>Web服务</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15181" class="ax_default table_cell">
+          <img id="u15181_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u15182" class="text" style="visibility: visible;">
+            <p><span>APP服务</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15183" class="ax_default table_cell">
+          <img id="u15183_img" class="img " src="images/a01性能概览/u120.png"/>
+          <!-- Unnamed () -->
+          <div id="u15184" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15185" class="ax_default table_cell">
+          <img id="u15185_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u15186" class="text" style="visibility: visible;">
+            <p><span>离线统计</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15187" class="ax_default table_cell">
+          <img id="u15187_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u15188" class="text" style="visibility: visible;">
+            <p><span>报警列表</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15189" class="ax_default table_cell">
+          <img id="u15189_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u15190" class="text" style="visibility: visible;">
+            <p><span>Agent下载</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15191" class="ax_default table_cell">
+          <img id="u15191_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u15192" class="text" style="visibility: visible;">
+            <p><span>设置</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15193" class="ax_default table_cell">
+          <img id="u15193_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u15194" class="text" style="visibility: visible;">
+            <p><span>系统设置</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15195" class="ax_default table_cell">
+          <img id="u15195_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u15196" class="text" style="visibility: visible;">
+            <p><span>告警阈值设置</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15197" class="ax_default table_cell">
+          <img id="u15197_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u15198" class="text" style="visibility: visible;">
+            <p><span>系统联系人</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15199" class="ax_default table_cell">
+          <img id="u15199_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u15200" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15201" class="ax_default table_cell">
+          <img id="u15201_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u15202" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15203" class="ax_default table_cell">
+          <img id="u15203_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u15204" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15205" class="ax_default table_cell">
+          <img id="u15205_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u15206" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15207" class="ax_default table_cell">
+          <img id="u15207_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u15208" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15209" class="ax_default table_cell">
+          <img id="u15209_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u15210" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u15211" class="ax_default icon">
+        <img id="u15211_img" class="img " src="images/a01性能概览/u156.png"/>
+        <!-- Unnamed () -->
+        <div id="u15212" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u15213" class="ax_default icon">
+        <img id="u15213_img" class="img " src="images/a01性能概览/u156.png"/>
+        <!-- Unnamed () -->
+        <div id="u15214" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u15215" class="ax_default icon">
+        <img id="u15215_img" class="img " src="images/a01性能概览/u156.png"/>
+        <!-- Unnamed () -->
+        <div id="u15216" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (顶部) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15218" class="ax_default box_3">
+        <div id="u15218_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15219" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15220" class="ax_default _一级标题">
+        <div id="u15220_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15221" class="text" style="visibility: visible;">
+          <p><span>帮助中心</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15222" class="ax_default _一级标题">
+        <div id="u15222_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15223" class="text" style="visibility: visible;">
+          <p><span>用户名</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u15224" class="ax_default">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u15225" class="ax_default _一级标题">
+          <div id="u15225_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u15226" class="text" style="visibility: visible;">
+            <p><span>云迹</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (占位符) -->
+        <div id="u15227" class="ax_default placeholder">
+          <img id="u15227_img" class="img " src="images/a01性能概览/u99.png"/>
+          <!-- Unnamed () -->
+          <div id="u15228" class="text" style="visibility: visible;">
+            <p><span>logo</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u15229" class="ax_default _一级标题">
+          <div id="u15229_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u15230" class="text" style="visibility: visible;">
+            <p><span>cloudytrace</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u15231" class="ax_default">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u15232" class="ax_default _一级标题">
+          <div id="u15232_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u15233" class="text" style="visibility: visible;">
+            <p><span>服务端性能监控</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (形状) -->
+        <div id="u15234" class="ax_default icon">
+          <img id="u15234_img" class="img " src="images/a01性能概览/u106.png"/>
+          <!-- Unnamed () -->
+          <div id="u15235" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u15236" class="ax_default icon">
+        <img id="u15236_img" class="img " src="images/a01性能概览/u108.png"/>
+        <!-- Unnamed () -->
+        <div id="u15237" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15238" class="ax_default _一级标题">
+        <div id="u15238_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15239" class="text" style="visibility: visible;">
+          <p><span>Q&amp;A</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15240" class="ax_default _一级标题">
+        <div id="u15240_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15241" class="text" style="visibility: visible;">
+          <p><span>设置 &gt; 告警阈值设置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u15242" class="ax_default">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u15243" class="ax_default _一级标题">
+          <div id="u15243_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u15244" class="text" style="visibility: visible;">
+            <p><span>单个系统</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (形状) -->
+        <div id="u15245" class="ax_default icon">
+          <img id="u15245_img" class="img " src="images/a01性能概览/u169.png"/>
+          <!-- Unnamed () -->
+          <div id="u15246" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u15247" class="ax_default">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u15248" class="ax_default _一级标题">
+          <div id="u15248_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u15249" class="text" style="visibility: visible;">
+            <p><span>告警阈值设置</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u15250" class="ax_default">
+
+        <!-- Unnamed (组合) -->
+        <div id="u15251" class="ax_default">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u15252" class="ax_default box_1">
+            <div id="u15252_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u15253" class="text" style="visibility: visible;">
+              <p><span>性能维度</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u15254" class="ax_default box_1">
+            <div id="u15254_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u15255" class="text" style="visibility: visible;">
+              <p><span>警告阈值</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u15256" class="ax_default box_1">
+            <div id="u15256_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u15257" class="text" style="visibility: visible;">
+              <p><span>严重警告阈值</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u15258" class="ax_default box_1">
+            <div id="u15258_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u15259" class="text" style="visibility: visible;">
+              <p><span>参数项</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u15260" class="ax_default box_1">
+            <div id="u15260_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u15261" class="text" style="visibility: visible;">
+              <p><span>操作</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u15262" class="ax_default">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u15263" class="ax_default box_1">
+            <div id="u15263_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u15264" class="text" style="visibility: visible;">
+              <p><span>请求过程</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u15265" class="ax_default box_1">
+            <div id="u15265_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u15266" class="text" style="visibility: visible;">
+              <p><span>30000ms</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u15267" class="ax_default box_1">
+            <div id="u15267_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u15268" class="text" style="visibility: visible;">
+              <p><span>60000ms</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u15269" class="ax_default box_1">
+            <div id="u15269_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u15270" class="text" style="visibility: visible;">
+              <p><span>最大耗时</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u15271" class="ax_default box_1">
+            <div id="u15271_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u15272" class="text" style="visibility: visible;">
+              <p><span>编辑</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u15273" class="ax_default box_1">
+            <div id="u15273_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u15274" class="text" style="visibility: visible;">
+              <p><span>编辑</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u15275" class="ax_default box_1">
+            <div id="u15275_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u15276" class="text" style="visibility: visible;">
+              <p><span>编辑</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u15277" class="ax_default box_1">
+            <div id="u15277_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u15278" class="text" style="visibility: visible;">
+              <p><span>编辑</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u15279" class="ax_default">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u15280" class="ax_default box_1">
+            <div id="u15280_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u15281" class="text" style="visibility: visible;">
+              <p><span>5%</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u15282" class="ax_default box_1">
+            <div id="u15282_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u15283" class="text" style="visibility: visible;">
+              <p><span>10%</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u15284" class="ax_default box_1">
+            <div id="u15284_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u15285" class="text" style="visibility: visible;">
+              <p><span>错误率</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u15286" class="ax_default">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u15287" class="ax_default box_1">
+            <div id="u15287_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u15288" class="text" style="visibility: visible;">
+              <p><span>SQL</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u15289" class="ax_default box_1">
+            <div id="u15289_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u15290" class="text" style="visibility: visible;">
+              <p><span>500ms</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u15291" class="ax_default box_1">
+            <div id="u15291_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u15292" class="text" style="visibility: visible;">
+              <p><span>1000ms</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u15293" class="ax_default box_1">
+            <div id="u15293_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u15294" class="text" style="visibility: visible;">
+              <p><span>最大耗时</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u15295" class="ax_default">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u15296" class="ax_default box_1">
+            <div id="u15296_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u15297" class="text" style="visibility: visible;">
+              <p><span>30000rps</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u15298" class="ax_default box_1">
+            <div id="u15298_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u15299" class="text" style="visibility: visible;">
+              <p><span>60000rps</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u15300" class="ax_default box_1">
+            <div id="u15300_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u15301" class="text" style="visibility: visible;">
+              <p><span>执行频率</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u15302" class="ax_default">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u15303" class="ax_default box_1">
+            <div id="u15303_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u15304" class="text" style="visibility: visible;">
+              <p><span>NoSQL</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u15305" class="ax_default box_1">
+            <div id="u15305_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u15306" class="text" style="visibility: visible;">
+              <p><span>500ms</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u15307" class="ax_default box_1">
+            <div id="u15307_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u15308" class="text" style="visibility: visible;">
+              <p><span>1000ms</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u15309" class="ax_default box_1">
+            <div id="u15309_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u15310" class="text" style="visibility: visible;">
+              <p><span>最大耗时</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u15311" class="ax_default">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u15312" class="ax_default box_1">
+            <div id="u15312_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u15313" class="text" style="visibility: visible;">
+              <p><span>30000rps</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u15314" class="ax_default box_1">
+            <div id="u15314_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u15315" class="text" style="visibility: visible;">
+              <p><span>60000rps</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u15316" class="ax_default box_1">
+            <div id="u15316_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u15317" class="text" style="visibility: visible;">
+              <p><span>执行频率</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u15318" class="ax_default">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u15319" class="ax_default box_1">
+            <div id="u15319_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u15320" class="text" style="visibility: visible;">
+              <p><span>JVMs</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u15321" class="ax_default box_1">
+            <div id="u15321_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u15322" class="text" style="visibility: visible;">
+              <p><span>500MB</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u15323" class="ax_default box_1">
+            <div id="u15323_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u15324" class="text" style="visibility: visible;">
+              <p><span>1000MB</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u15325" class="ax_default box_1">
+            <div id="u15325_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u15326" class="text" style="visibility: visible;">
+              <p><span>heap使用</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u15327" class="ax_default">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u15328" class="ax_default box_1">
+            <div id="u15328_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u15329" class="text" style="visibility: visible;">
+              <p><span>300MB</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u15330" class="ax_default box_1">
+            <div id="u15330_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u15331" class="text" style="visibility: visible;">
+              <p><span>600MB</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u15332" class="ax_default box_1">
+            <div id="u15332_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u15333" class="text" style="visibility: visible;">
+              <p><span>nonHeap使用</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15334" class="ax_default box_1">
+        <div id="u15334_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15335" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15336" class="ax_default box_1">
+        <div id="u15336_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15337" class="text" style="visibility: visible;">
+          <p><span>请求过程</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15338" class="ax_default box_1">
+        <div id="u15338_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15339" class="text" style="visibility: visible;">
+          <p><span>30000</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15340" class="ax_default box_1">
+        <div id="u15340_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15341" class="text" style="visibility: visible;">
+          <p><span>X</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15342" class="ax_default box_1">
+        <div id="u15342_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15343" class="text" style="visibility: visible;">
+          <p><span>取消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15344" class="ax_default _一级标题">
+        <div id="u15344_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15345" class="text" style="visibility: visible;">
+          <p><span>保存</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15346" class="ax_default box_1">
+        <div id="u15346_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15347" class="text" style="visibility: visible;">
+          <p><span>最大耗时</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15348" class="ax_default box_1">
+        <div id="u15348_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15349" class="text" style="visibility: visible;">
+          <p><span>警告阈值：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15350" class="ax_default box_1">
+        <div id="u15350_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15351" class="text" style="visibility: visible;">
+          <p><span>ms</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15352" class="ax_default box_1">
+        <div id="u15352_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15353" class="text" style="visibility: visible;">
+          <p><span>60000</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15354" class="ax_default box_1">
+        <div id="u15354_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15355" class="text" style="visibility: visible;">
+          <p><span>严重警告阈值：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15356" class="ax_default box_1">
+        <div id="u15356_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15357" class="text" style="visibility: visible;">
+          <p><span>ms</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15358" class="ax_default box_1">
+        <div id="u15358_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15359" class="text" style="visibility: visible;">
+          <p><span>5</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15360" class="ax_default box_1">
+        <div id="u15360_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15361" class="text" style="visibility: visible;">
+          <p><span>错误率</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15362" class="ax_default box_1">
+        <div id="u15362_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15363" class="text" style="visibility: visible;">
+          <p><span>警告阈值：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15364" class="ax_default box_1">
+        <div id="u15364_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15365" class="text" style="visibility: visible;">
+          <p><span>％</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15366" class="ax_default box_1">
+        <div id="u15366_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15367" class="text" style="visibility: visible;">
+          <p><span>10</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15368" class="ax_default box_1">
+        <div id="u15368_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15369" class="text" style="visibility: visible;">
+          <p><span>严重警告阈值：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15370" class="ax_default box_1">
+        <div id="u15370_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15371" class="text" style="visibility: visible;">
+          <p><span>％</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u15372" class="ax_default _连接线">
+        <img id="u15372_seg0" class="img " src="images/i02告警阈值设置/u15372_seg0.png" alt="u15372_seg0"/>
+        <img id="u15372_seg1" class="img " src="images/a01性能概览/u194_seg1.png" alt="u15372_seg1"/>
+        <img id="u15372_seg2" class="img " src="images/a01性能概览/u194_seg2.png" alt="u15372_seg2"/>
+        <!-- Unnamed () -->
+        <div id="u15373" class="text" style="visibility: visible;">
+          <p><span>弹框</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

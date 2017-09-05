@@ -1,0 +1,1551 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>F09HttpClient</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/f09httpclient/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/f09httpclient/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (顶部) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u9541" class="ax_default box_3">
+        <div id="u9541_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u9542" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u9543" class="ax_default _一级标题">
+        <div id="u9543_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u9544" class="text" style="visibility: visible;">
+          <p><span>帮助中心</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u9545" class="ax_default _一级标题">
+        <div id="u9545_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u9546" class="text" style="visibility: visible;">
+          <p><span>用户名</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u9547" class="ax_default">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u9548" class="ax_default _一级标题">
+          <div id="u9548_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u9549" class="text" style="visibility: visible;">
+            <p><span>云迹</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (占位符) -->
+        <div id="u9550" class="ax_default placeholder">
+          <img id="u9550_img" class="img " src="images/a01性能概览/u85.png"/>
+          <!-- Unnamed () -->
+          <div id="u9551" class="text" style="visibility: visible;">
+            <p><span>logo</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u9552" class="ax_default _一级标题">
+          <div id="u9552_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u9553" class="text" style="visibility: visible;">
+            <p><span>cloudytrace</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u9554" class="ax_default">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u9555" class="ax_default _一级标题">
+          <div id="u9555_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u9556" class="text" style="visibility: visible;">
+            <p><span>服务端性能监控</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (形状) -->
+        <div id="u9557" class="ax_default icon">
+          <img id="u9557_img" class="img " src="images/a01性能概览/u92.png"/>
+          <!-- Unnamed () -->
+          <div id="u9558" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u9559" class="ax_default icon">
+        <img id="u9559_img" class="img " src="images/a01性能概览/u94.png"/>
+        <!-- Unnamed () -->
+        <div id="u9560" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u9561" class="ax_default _一级标题">
+        <div id="u9561_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u9562" class="text" style="visibility: visible;">
+          <p><span>Q&amp;A</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (左侧菜单 (APP服务)) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u9564" class="ax_default box_1">
+        <div id="u9564_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u9565" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- 表格1 (表格) -->
+      <div id="u9566" class="ax_default" data-label="表格1">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9567" class="ax_default table_cell">
+          <img id="u9567_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u9568" class="text" style="visibility: visible;">
+            <p><span>性能概览</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9569" class="ax_default table_cell">
+          <img id="u9569_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u9570" class="text" style="visibility: visible;">
+            <p><span>关键请求过程</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9571" class="ax_default table_cell">
+          <img id="u9571_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u9572" class="text" style="visibility: visible;">
+            <p><span>报警列表</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9573" class="ax_default table_cell">
+          <img id="u9573_img" class="img " src="images/a01性能概览/u108.png"/>
+          <!-- Unnamed () -->
+          <div id="u9574" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9575" class="ax_default table_cell">
+          <img id="u9575_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u9576" class="text" style="visibility: visible;">
+            <p><span>系统拓扑</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9577" class="ax_default table_cell">
+          <img id="u9577_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u9578" class="text" style="visibility: visible;">
+            <p><span>Web服务</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9579" class="ax_default table_cell">
+          <img id="u9579_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u9580" class="text" style="visibility: visible;">
+            <p><span>APP服务</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9581" class="ax_default table_cell">
+          <img id="u9581_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u9582" class="text" style="visibility: visible;">
+            <p><span>请求过程</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9583" class="ax_default table_cell">
+          <img id="u9583_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u9584" class="text" style="visibility: visible;">
+            <p><span>方法监控</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9585" class="ax_default table_cell">
+          <img id="u9585_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u9586" class="text" style="visibility: visible;">
+            <p><span>数据源</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9587" class="ax_default table_cell">
+          <img id="u9587_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u9588" class="text" style="visibility: visible;">
+            <p><span>NoSQL</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9589" class="ax_default table_cell">
+          <img id="u9589_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u9590" class="text" style="visibility: visible;">
+            <p><span>Kafka</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9591" class="ax_default table_cell">
+          <img id="u9591_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u9592" class="text" style="visibility: visible;">
+            <p><span>HttpClient</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9593" class="ax_default table_cell">
+          <img id="u9593_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u9594" class="text" style="visibility: visible;">
+            <p><span>线程剖析</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9595" class="ax_default table_cell">
+          <img id="u9595_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u9596" class="text" style="visibility: visible;">
+            <p><span>JVMs</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9597" class="ax_default table_cell">
+          <img id="u9597_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u9598" class="text" style="visibility: visible;">
+            <p><span>异常日志</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9599" class="ax_default table_cell">
+          <img id="u9599_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u9600" class="text" style="visibility: visible;">
+            <p><span>环境变量</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9601" class="ax_default table_cell">
+          <img id="u9601_img" class="img " src="images/a01性能概览/u108.png"/>
+          <!-- Unnamed () -->
+          <div id="u9602" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9603" class="ax_default table_cell">
+          <img id="u9603_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u9604" class="text" style="visibility: visible;">
+            <p><span>离线统计</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9605" class="ax_default table_cell">
+          <img id="u9605_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u9606" class="text" style="visibility: visible;">
+            <p><span>Agent下载</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9607" class="ax_default table_cell">
+          <img id="u9607_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u9608" class="text" style="visibility: visible;">
+            <p><span>设置</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9609" class="ax_default table_cell">
+          <img id="u9609_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u9610" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9611" class="ax_default table_cell">
+          <img id="u9611_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u9612" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9613" class="ax_default table_cell">
+          <img id="u9613_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u9614" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9615" class="ax_default table_cell">
+          <img id="u9615_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u9616" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9617" class="ax_default table_cell">
+          <img id="u9617_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u9618" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9619" class="ax_default table_cell">
+          <img id="u9619_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u9620" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9621" class="ax_default table_cell">
+          <img id="u9621_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u9622" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9623" class="ax_default table_cell">
+          <img id="u9623_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u9624" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9625" class="ax_default table_cell">
+          <img id="u9625_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u9626" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u9627" class="ax_default icon">
+        <img id="u9627_img" class="img " src="images/a01性能概览/u142.png"/>
+        <!-- Unnamed () -->
+        <div id="u9628" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u9629" class="ax_default icon">
+        <img id="u9629_img" class="img " src="images/a01性能概览/u142.png"/>
+        <!-- Unnamed () -->
+        <div id="u9630" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u9631" class="ax_default icon">
+        <img id="u9631_img" class="img " src="images/a01性能概览/u142.png"/>
+        <!-- Unnamed () -->
+        <div id="u9632" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u9633" class="ax_default _一级标题">
+        <div id="u9633_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u9634" class="text" style="visibility: visible;">
+          <p><span>HttpClient</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u9635" class="ax_default icon">
+        <img id="u9635_img" class="img " src="images/a01性能概览/u155.png"/>
+        <!-- Unnamed () -->
+        <div id="u9636" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u9637" class="ax_default _一级标题">
+        <div id="u9637_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u9638" class="text" style="visibility: visible;">
+          <p><span>所有系统</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u9639" class="ax_default icon">
+        <img id="u9639_img" class="img " src="images/a01性能概览/u155.png"/>
+        <!-- Unnamed () -->
+        <div id="u9640" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u9641" class="ax_default _一级标题">
+        <div id="u9641_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u9642" class="text" style="visibility: visible;">
+          <p><span>最近5分钟</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u9643" class="ax_default">
+
+        <!-- Unnamed (组合) -->
+        <div id="u9644" class="ax_default">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u9645" class="ax_default _一级标题">
+            <div id="u9645_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u9646" class="text" style="visibility: visible;">
+              <p><span>HttpClient</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u9647" class="ax_default">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u9648" class="ax_default _一级标题">
+          <div id="u9648_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u9649" class="text" style="visibility: visible;">
+            <p><span>节点名称：</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (下拉列表框) -->
+        <div id="u9650" class="ax_default droplist">
+          <select id="u9650_input">
+            <option value="全部">全部</option>
+            <option selected value="节点名称1">节点名称1</option>
+            <option value="节点名称2">节点名称2</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u9651" class="ax_default">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u9652" class="ax_default box_1">
+          <div id="u9652_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u9653" class="text" style="visibility: visible;">
+            <p style="font-size:14px;"><span>平均耗时</span><span style="font-size:12px;">（最大耗时：100ms）</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u9654" class="ax_default">
+
+        <!-- Unnamed (水平线) -->
+        <div id="u9655" class="compound ax_default line" WidgetHeight="1" WidgetWidth="489" CompoundMode="true">
+          <img id="u9655_img" class="singleImg img " src="images/b01_/u4405.png"/>
+          <div id="u9655p000" class="ax_vector_shape" WidgetTopLeftX="-0.4979633401222" WidgetTopLeftY="-0.5" WidgetTopRightX="0.4979633401222" WidgetTopRightY="-0.5" WidgetBottomLeftX="-0.4979633401222" WidgetBottomLeftY="0.5" WidgetBottomRightX="0.4979633401222" WidgetBottomRightY="0.5">
+            <img id="u9655p000_img" class="img " src="images/b01_/u4405p000.png"/>
+          </div>
+          <div id="u9655p001" class="ax_vector_shape" WidgetTopLeftX="-24.25" WidgetTopLeftY="0" WidgetTopRightX="0.2" WidgetTopRightY="0" WidgetBottomLeftX="-24.25" WidgetBottomLeftY="0.05" WidgetBottomRightX="0.2" WidgetBottomRightY="0.05">
+            <img id="u9655p001_img" class="img " src="images/b01_/u4405p001.png"/>
+          </div>
+          <!-- Unnamed () -->
+          <div id="u9656" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (垂直线) -->
+        <div id="u9657" class="compound ax_default line" WidgetHeight="152" WidgetWidth="1" CompoundMode="true">
+          <img id="u9657_img" class="singleImg img " src="images/b01_/u4407.png"/>
+          <div id="u9657p000" class="ax_vector_shape" WidgetTopLeftX="-0.496732026143791" WidgetTopLeftY="0.25" WidgetTopRightX="-0.496732026143791" WidgetTopRightY="-0.25" WidgetBottomLeftX="0.496732026143791" WidgetBottomLeftY="0.25" WidgetBottomRightX="0.496732026143791" WidgetBottomRightY="-0.25">
+            <img id="u9657p000_img" class="img " src="images/b01_/u4407p000.png"/>
+          </div>
+          <div id="u9657p001" class="ax_vector_shape" WidgetTopLeftX="0" WidgetTopLeftY="-0.15" WidgetTopRightX="0.05" WidgetTopRightY="-0.15" WidgetBottomLeftX="0" WidgetBottomLeftY="7.45" WidgetBottomRightX="0.05" WidgetBottomRightY="7.45">
+            <img id="u9657p001_img" class="img " src="images/b01_/u4407p001.png"/>
+          </div>
+          <!-- Unnamed () -->
+          <div id="u9658" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u9659" class="ax_default _一级标题">
+          <div id="u9659_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u9660" class="text" style="visibility: visible;">
+            <p><span>时间</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u9661" class="ax_default _一级标题">
+          <div id="u9661_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u9662" class="text" style="visibility: visible;">
+            <p><span>平均耗时</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (形状) -->
+        <div id="u9663" class="compound ax_default icon" WidgetHeight="59" WidgetWidth="431" CompoundMode="true">
+          <img id="u9663_img" class="singleImg img " src="images/b01_/u4413.png"/>
+          <div id="u9663p000" class="ax_vector_shape" WidgetTopLeftX="-0.394614017441886" WidgetTopLeftY="-11.8926803685624" WidgetTopRightX="2.07469537125216" WidgetTopRightY="21.4039007753381" WidgetBottomLeftX="-0.504445358816115" WidgetBottomLeftY="2.13540324679107" WidgetBottomRightX="1.96486402987793" WidgetBottomRightY="35.4319843906916">
+            <img id="u9663p000_img" class="img " src="images/b01_/u4413p000.png"/>
+          </div>
+          <div id="u9663p001" class="ax_vector_shape" WidgetTopLeftX="-1.3950087041994" WidgetTopLeftY="14.3027121098589" WidgetTopRightX="1.15031767362408" WidgetTopRightY="-26.0611483307057" WidgetBottomLeftX="-1.25423297801125" WidgetBottomLeftY="27.978673964719" WidgetBottomRightX="1.29109339981222" WidgetBottomRightY="-12.3851864758455">
+            <img id="u9663p001_img" class="img " src="images/b01_/u4413p001.png"/>
+          </div>
+          <div id="u9663p002" class="ax_vector_shape" WidgetTopLeftX="-2.37528629862332" WidgetTopLeftY="-44.3139666047903" WidgetTopRightX="0.536000632359814" WidgetTopRightY="-7.13029712506152" WidgetBottomLeftX="-2.48207177877052" WidgetBottomLeftY="-25.3174253544387" WidgetBottomRightX="0.42921515221262" WidgetBottomRightY="11.8662441252902">
+            <img id="u9663p002_img" class="img " src="images/b01_/u4413p002.png"/>
+          </div>
+          <!-- Unnamed () -->
+          <div id="u9664" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u9665" class="ax_default">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u9666" class="ax_default box_1">
+          <div id="u9666_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u9667" class="text" style="visibility: visible;">
+            <p><span>吞吐率</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u9668" class="ax_default">
+
+        <!-- Unnamed (水平线) -->
+        <div id="u9669" class="compound ax_default line" WidgetHeight="1" WidgetWidth="494" CompoundMode="true">
+          <img id="u9669_img" class="singleImg img " src="images/b01_/u4419.png"/>
+          <div id="u9669p000" class="ax_vector_shape" WidgetTopLeftX="-0.497983870967742" WidgetTopLeftY="-0.5" WidgetTopRightX="0.497983870967742" WidgetTopRightY="-0.5" WidgetBottomLeftX="-0.497983870967742" WidgetBottomLeftY="0.5" WidgetBottomRightX="0.497983870967742" WidgetBottomRightY="0.5">
+            <img id="u9669p000_img" class="img " src="images/b01_/u4447p000.png"/>
+          </div>
+          <div id="u9669p001" class="ax_vector_shape" WidgetTopLeftX="-24.5" WidgetTopLeftY="0" WidgetTopRightX="0.2" WidgetTopRightY="0" WidgetBottomLeftX="-24.5" WidgetBottomLeftY="0.05" WidgetBottomRightX="0.2" WidgetBottomRightY="0.05">
+            <img id="u9669p001_img" class="img " src="images/b01_/u4447p001.png"/>
+          </div>
+          <!-- Unnamed () -->
+          <div id="u9670" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (垂直线) -->
+        <div id="u9671" class="compound ax_default line" WidgetHeight="152" WidgetWidth="1" CompoundMode="true">
+          <img id="u9671_img" class="singleImg img " src="images/b01_/u4407.png"/>
+          <div id="u9671p000" class="ax_vector_shape" WidgetTopLeftX="-0.496732026143791" WidgetTopLeftY="0.25" WidgetTopRightX="-0.496732026143791" WidgetTopRightY="-0.25" WidgetBottomLeftX="0.496732026143791" WidgetBottomLeftY="0.25" WidgetBottomRightX="0.496732026143791" WidgetBottomRightY="-0.25">
+            <img id="u9671p000_img" class="img " src="images/b01_/u4449p000.png"/>
+          </div>
+          <div id="u9671p001" class="ax_vector_shape" WidgetTopLeftX="0" WidgetTopLeftY="-0.15" WidgetTopRightX="0.05" WidgetTopRightY="-0.15" WidgetBottomLeftX="0" WidgetBottomLeftY="7.45" WidgetBottomRightX="0.05" WidgetBottomRightY="7.45">
+            <img id="u9671p001_img" class="img " src="images/b01_/u4449p001.png"/>
+          </div>
+          <!-- Unnamed () -->
+          <div id="u9672" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u9673" class="ax_default _一级标题">
+          <div id="u9673_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u9674" class="text" style="visibility: visible;">
+            <p><span>时间</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u9675" class="ax_default _一级标题">
+          <div id="u9675_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u9676" class="text" style="visibility: visible;">
+            <p><span>吞吐率</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (形状) -->
+        <div id="u9677" class="compound ax_default icon" WidgetHeight="59" WidgetWidth="436" CompoundMode="true">
+          <img id="u9677_img" class="singleImg img " src="images/b01_/u4427.png"/>
+          <div id="u9677p000" class="ax_vector_shape" WidgetTopLeftX="-0.400490942541954" WidgetTopLeftY="-11.6781529668624" WidgetTopRightX="2.08134759079069" WidgetTopRightY="20.1903628479159" WidgetBottomLeftX="-0.503169100748153" WidgetBottomLeftY="2.42734218359241" WidgetBottomRightX="1.97866943258449" WidgetBottomRightY="34.2958579983707">
+            <img id="u9677p000_img" class="img " src="images/f01请求过程/u6592p000.png"/>
+          </div>
+          <div id="u9677p001" class="ax_vector_shape" WidgetTopLeftX="-1.41391860776888" WidgetTopLeftY="19.2903587641333" WidgetTopRightX="1.16093591828921" WidgetTopRightY="-35.152466145646" WidgetBottomLeftX="-1.27314288158073" WidgetBottomLeftY="37.5249745706134" WidgetBottomRightX="1.30171164447735" WidgetBottomRightY="-16.9178503391658">
+            <img id="u9677p001_img" class="img " src="images/f01请求过程/u6592p001.png"/>
+          </div>
+          <div id="u9677p002" class="ax_vector_shape" WidgetTopLeftX="-2.36916995867787" WidgetTopLeftY="-44.659058664927" WidgetTopRightX="0.535269077612016" WidgetTopRightY="-7.04402411002736" WidgetBottomLeftX="-2.47448253565062" WidgetBottomLeftY="-25.6625174145754" WidgetBottomRightX="0.429956500639266" WidgetBottomRightY="11.9525171403243">
+            <img id="u9677p002_img" class="img " src="images/f01请求过程/u6592p002.png"/>
+          </div>
+          <!-- Unnamed () -->
+          <div id="u9678" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u9679" class="ax_default">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u9680" class="ax_default box_1">
+          <div id="u9680_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u9681" class="text" style="visibility: visible;">
+            <p><span>并发量</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u9682" class="ax_default">
+
+        <!-- Unnamed (水平线) -->
+        <div id="u9683" class="compound ax_default line" WidgetHeight="1" WidgetWidth="494" CompoundMode="true">
+          <img id="u9683_img" class="singleImg img " src="images/b01_/u4419.png"/>
+          <div id="u9683p000" class="ax_vector_shape" WidgetTopLeftX="-0.497983870967742" WidgetTopLeftY="-0.5" WidgetTopRightX="0.497983870967742" WidgetTopRightY="-0.5" WidgetBottomLeftX="-0.497983870967742" WidgetBottomLeftY="0.5" WidgetBottomRightX="0.497983870967742" WidgetBottomRightY="0.5">
+            <img id="u9683p000_img" class="img " src="images/b01_/u4447p000.png"/>
+          </div>
+          <div id="u9683p001" class="ax_vector_shape" WidgetTopLeftX="-24.5" WidgetTopLeftY="0" WidgetTopRightX="0.2" WidgetTopRightY="0" WidgetBottomLeftX="-24.5" WidgetBottomLeftY="0.05" WidgetBottomRightX="0.2" WidgetBottomRightY="0.05">
+            <img id="u9683p001_img" class="img " src="images/b01_/u4447p001.png"/>
+          </div>
+          <!-- Unnamed () -->
+          <div id="u9684" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (垂直线) -->
+        <div id="u9685" class="compound ax_default line" WidgetHeight="152" WidgetWidth="1" CompoundMode="true">
+          <img id="u9685_img" class="singleImg img " src="images/b01_/u4407.png"/>
+          <div id="u9685p000" class="ax_vector_shape" WidgetTopLeftX="-0.496732026143791" WidgetTopLeftY="0.25" WidgetTopRightX="-0.496732026143791" WidgetTopRightY="-0.25" WidgetBottomLeftX="0.496732026143791" WidgetBottomLeftY="0.25" WidgetBottomRightX="0.496732026143791" WidgetBottomRightY="-0.25">
+            <img id="u9685p000_img" class="img " src="images/b01_/u4449p000.png"/>
+          </div>
+          <div id="u9685p001" class="ax_vector_shape" WidgetTopLeftX="0" WidgetTopLeftY="-0.15" WidgetTopRightX="0.05" WidgetTopRightY="-0.15" WidgetBottomLeftX="0" WidgetBottomLeftY="7.45" WidgetBottomRightX="0.05" WidgetBottomRightY="7.45">
+            <img id="u9685p001_img" class="img " src="images/b01_/u4449p001.png"/>
+          </div>
+          <!-- Unnamed () -->
+          <div id="u9686" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u9687" class="ax_default _一级标题">
+          <div id="u9687_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u9688" class="text" style="visibility: visible;">
+            <p><span>时间</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u9689" class="ax_default _一级标题">
+          <div id="u9689_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u9690" class="text" style="visibility: visible;">
+            <p><span>并发量</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (形状) -->
+        <div id="u9691" class="compound ax_default icon" WidgetHeight="59" WidgetWidth="436" CompoundMode="true">
+          <img id="u9691_img" class="singleImg img " src="images/b01_/u4427.png"/>
+          <div id="u9691p000" class="ax_vector_shape" WidgetTopLeftX="-0.400490942541954" WidgetTopLeftY="-11.6781529668623" WidgetTopRightX="2.08134759079069" WidgetTopRightY="20.190362847916" WidgetBottomLeftX="-0.503169100748154" WidgetBottomLeftY="2.42734218359243" WidgetBottomRightX="1.97866943258449" WidgetBottomRightY="34.2958579983707">
+            <img id="u9691p000_img" class="img " src="images/f01请求过程/u6592p000.png"/>
+          </div>
+          <div id="u9691p001" class="ax_vector_shape" WidgetTopLeftX="-1.41391860776888" WidgetTopLeftY="19.2903587641332" WidgetTopRightX="1.16093591828921" WidgetTopRightY="-35.152466145646" WidgetBottomLeftX="-1.27314288158073" WidgetBottomLeftY="37.5249745706134" WidgetBottomRightX="1.30171164447735" WidgetBottomRightY="-16.9178503391658">
+            <img id="u9691p001_img" class="img " src="images/f01请求过程/u6592p001.png"/>
+          </div>
+          <div id="u9691p002" class="ax_vector_shape" WidgetTopLeftX="-2.36916995867787" WidgetTopLeftY="-44.659058664927" WidgetTopRightX="0.535269077612015" WidgetTopRightY="-7.04402411002737" WidgetBottomLeftX="-2.47448253565062" WidgetBottomLeftY="-25.6625174145754" WidgetBottomRightX="0.429956500639266" WidgetBottomRightY="11.9525171403243">
+            <img id="u9691p002_img" class="img " src="images/f01请求过程/u6592p002.png"/>
+          </div>
+          <!-- Unnamed () -->
+          <div id="u9692" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u9693" class="ax_default">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u9694" class="ax_default box_1">
+          <div id="u9694_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u9695" class="text" style="visibility: visible;">
+            <p><span>基本信息</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u9696" class="ax_default">
+
+        <!-- Unnamed (水平线) -->
+        <div id="u9697" class="ax_default line">
+          <img id="u9697_img" class="img " src="images/b01_/u4562.png"/>
+          <!-- Unnamed () -->
+          <div id="u9698" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (水平线) -->
+        <div id="u9699" class="ax_default line">
+          <img id="u9699_img" class="img " src="images/b01_/u4562.png"/>
+          <!-- Unnamed () -->
+          <div id="u9700" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (水平线) -->
+        <div id="u9701" class="ax_default line">
+          <img id="u9701_img" class="img " src="images/b01_/u4566.png"/>
+          <!-- Unnamed () -->
+          <div id="u9702" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (水平线) -->
+        <div id="u9703" class="ax_default line">
+          <img id="u9703_img" class="img " src="images/b01_/u4566.png"/>
+          <!-- Unnamed () -->
+          <div id="u9704" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u9705" class="ax_default image">
+        <img id="u9705_img" class="img " src="images/b01_/u4487.png"/>
+        <!-- Unnamed () -->
+        <div id="u9706" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u9707" class="ax_default box_1">
+        <div id="u9707_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u9708" class="text" style="visibility: visible;">
+          <p><span>平均耗时</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u9709" class="ax_default box_1">
+        <div id="u9709_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u9710" class="text" style="visibility: visible;">
+          <p><span>吞吐率</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u9711" class="ax_default box_1">
+        <div id="u9711_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u9712" class="text" style="visibility: visible;">
+          <p><span>排序条件：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (文本段落) -->
+      <div id="u9713" class="ax_default _文本段落">
+        <img id="u9713_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u9714" class="text" style="visibility: visible;">
+          <p><span>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX </span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u9715" class="ax_default box_1">
+        <div id="u9715_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u9716" class="text" style="visibility: visible;">
+          <p><span>最大耗时</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u9717" class="ax_default box_1">
+        <div id="u9717_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u9718" class="text" style="visibility: visible;">
+          <p><span>并发量</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u9719" class="ax_default box_1">
+        <div id="u9719_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u9720" class="text" style="visibility: visible;">
+          <p><span>错误率</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u9721" class="ax_default">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u9722" class="ax_default box_1">
+          <div id="u9722_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u9723" class="text" style="visibility: visible;">
+            <p><span>错误率</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u9724" class="ax_default">
+
+        <!-- Unnamed (水平线) -->
+        <div id="u9725" class="compound ax_default line" WidgetHeight="1" WidgetWidth="494" CompoundMode="true">
+          <img id="u9725_img" class="singleImg img " src="images/b01_/u4419.png"/>
+          <div id="u9725p000" class="ax_vector_shape" WidgetTopLeftX="-0.497983870967742" WidgetTopLeftY="-0.5" WidgetTopRightX="0.497983870967742" WidgetTopRightY="-0.5" WidgetBottomLeftX="-0.497983870967742" WidgetBottomLeftY="0.5" WidgetBottomRightX="0.497983870967742" WidgetBottomRightY="0.5">
+            <img id="u9725p000_img" class="img " src="images/b01_/u4419p000.png"/>
+          </div>
+          <div id="u9725p001" class="ax_vector_shape" WidgetTopLeftX="-24.5" WidgetTopLeftY="0" WidgetTopRightX="0.2" WidgetTopRightY="0" WidgetBottomLeftX="-24.5" WidgetBottomLeftY="0.05" WidgetBottomRightX="0.2" WidgetBottomRightY="0.05">
+            <img id="u9725p001_img" class="img " src="images/b01_/u4419p001.png"/>
+          </div>
+          <!-- Unnamed () -->
+          <div id="u9726" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (垂直线) -->
+        <div id="u9727" class="compound ax_default line" WidgetHeight="152" WidgetWidth="1" CompoundMode="true">
+          <img id="u9727_img" class="singleImg img " src="images/b01_/u4407.png"/>
+          <div id="u9727p000" class="ax_vector_shape" WidgetTopLeftX="-0.496732026143791" WidgetTopLeftY="0.25" WidgetTopRightX="-0.496732026143791" WidgetTopRightY="-0.25" WidgetBottomLeftX="0.496732026143791" WidgetBottomLeftY="0.25" WidgetBottomRightX="0.496732026143791" WidgetBottomRightY="-0.25">
+            <img id="u9727p000_img" class="img " src="images/b01_/u4407p000.png"/>
+          </div>
+          <div id="u9727p001" class="ax_vector_shape" WidgetTopLeftX="0" WidgetTopLeftY="-0.15" WidgetTopRightX="0.05" WidgetTopRightY="-0.15" WidgetBottomLeftX="0" WidgetBottomLeftY="7.45" WidgetBottomRightX="0.05" WidgetBottomRightY="7.45">
+            <img id="u9727p001_img" class="img " src="images/b01_/u4407p001.png"/>
+          </div>
+          <!-- Unnamed () -->
+          <div id="u9728" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u9729" class="ax_default _一级标题">
+          <div id="u9729_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u9730" class="text" style="visibility: visible;">
+            <p><span>时间</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u9731" class="ax_default _一级标题">
+          <div id="u9731_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u9732" class="text" style="visibility: visible;">
+            <p><span>错误率</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (形状) -->
+        <div id="u9733" class="compound ax_default icon" WidgetHeight="59" WidgetWidth="436" CompoundMode="true">
+          <img id="u9733_img" class="singleImg img " src="images/b01_/u4427.png"/>
+          <div id="u9733p000" class="ax_vector_shape" WidgetTopLeftX="-0.400490942541954" WidgetTopLeftY="-11.6781529668623" WidgetTopRightX="2.08134759079069" WidgetTopRightY="20.190362847916" WidgetBottomLeftX="-0.503169100748153" WidgetBottomLeftY="2.42734218359244" WidgetBottomRightX="1.97866943258449" WidgetBottomRightY="34.2958579983707">
+            <img id="u9733p000_img" class="img " src="images/b01_/u4427p000.png"/>
+          </div>
+          <div id="u9733p001" class="ax_vector_shape" WidgetTopLeftX="-1.41391860776888" WidgetTopLeftY="19.2903587641333" WidgetTopRightX="1.16093591828921" WidgetTopRightY="-35.152466145646" WidgetBottomLeftX="-1.27314288158073" WidgetBottomLeftY="37.5249745706134" WidgetBottomRightX="1.30171164447735" WidgetBottomRightY="-16.9178503391658">
+            <img id="u9733p001_img" class="img " src="images/b01_/u4427p001.png"/>
+          </div>
+          <div id="u9733p002" class="ax_vector_shape" WidgetTopLeftX="-2.36916995867787" WidgetTopLeftY="-44.659058664927" WidgetTopRightX="0.535269077612016" WidgetTopRightY="-7.04402411002736" WidgetBottomLeftX="-2.47448253565062" WidgetBottomLeftY="-25.6625174145754" WidgetBottomRightX="0.429956500639266" WidgetBottomRightY="11.9525171403243">
+            <img id="u9733p002_img" class="img " src="images/b01_/u4427p002.png"/>
+          </div>
+          <!-- Unnamed () -->
+          <div id="u9734" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u9735" class="ax_default">
+
+        <!-- Unnamed (组合) -->
+        <div id="u9736" class="ax_default">
+
+          <!-- Unnamed (组合) -->
+          <div id="u9737" class="ax_default">
+
+            <!-- Unnamed (组合) -->
+            <div id="u9738" class="ax_default">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u9739" class="ax_default _一级标题">
+                <div id="u9739_div" class=""></div>
+                <!-- Unnamed () -->
+                <div id="u9740" class="text" style="visibility: visible;">
+                  <p><span>No.1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX ...</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u9741" class="ax_default _一级标题">
+                <div id="u9741_div" class=""></div>
+                <!-- Unnamed () -->
+                <div id="u9742" class="text" style="visibility: visible;">
+                  <p><span>20ms</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (复选框) -->
+              <div id="u9743" class="ax_default checkbox">
+                <label for="u9743_input">
+                  <!-- Unnamed () -->
+                  <div id="u9744" class="text" style="display: none; visibility: hidden">
+                    <p><span></span></p>
+                  </div>
+                </label>
+                <input id="u9743_input" type="checkbox" value="checkbox" checked/>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unnamed (水平线) -->
+          <div id="u9745" class="ax_default line">
+            <img id="u9745_img" class="img " src="images/f01请求过程/u6865.png"/>
+            <!-- Unnamed () -->
+            <div id="u9746" class="text" style="display: none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u9747" class="ax_default">
+
+          <!-- Unnamed (组合) -->
+          <div id="u9748" class="ax_default">
+
+            <!-- Unnamed (组合) -->
+            <div id="u9749" class="ax_default">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u9750" class="ax_default _一级标题">
+                <div id="u9750_div" class=""></div>
+                <!-- Unnamed () -->
+                <div id="u9751" class="text" style="visibility: visible;">
+                  <p><span>No.2</span></p><p><span>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX ...</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u9752" class="ax_default _一级标题">
+                <div id="u9752_div" class=""></div>
+                <!-- Unnamed () -->
+                <div id="u9753" class="text" style="visibility: visible;">
+                  <p><span>20ms</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (复选框) -->
+              <div id="u9754" class="ax_default checkbox">
+                <label for="u9754_input">
+                  <!-- Unnamed () -->
+                  <div id="u9755" class="text" style="display: none; visibility: hidden">
+                    <p><span></span></p>
+                  </div>
+                </label>
+                <input id="u9754_input" type="checkbox" value="checkbox"/>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unnamed (水平线) -->
+          <div id="u9756" class="ax_default line">
+            <img id="u9756_img" class="img " src="images/f01请求过程/u6876.png"/>
+            <!-- Unnamed () -->
+            <div id="u9757" class="text" style="display: none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u9758" class="ax_default">
+
+          <!-- Unnamed (组合) -->
+          <div id="u9759" class="ax_default">
+
+            <!-- Unnamed (组合) -->
+            <div id="u9760" class="ax_default">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u9761" class="ax_default _一级标题">
+                <div id="u9761_div" class=""></div>
+                <!-- Unnamed () -->
+                <div id="u9762" class="text" style="visibility: visible;">
+                  <p><span>No.3 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX ...</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u9763" class="ax_default _一级标题">
+                <div id="u9763_div" class=""></div>
+                <!-- Unnamed () -->
+                <div id="u9764" class="text" style="visibility: visible;">
+                  <p><span>20ms</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (复选框) -->
+              <div id="u9765" class="ax_default checkbox">
+                <label for="u9765_input">
+                  <!-- Unnamed () -->
+                  <div id="u9766" class="text" style="display: none; visibility: hidden">
+                    <p><span></span></p>
+                  </div>
+                </label>
+                <input id="u9765_input" type="checkbox" value="checkbox"/>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unnamed (水平线) -->
+          <div id="u9767" class="ax_default line">
+            <img id="u9767_img" class="img " src="images/f01请求过程/u6876.png"/>
+            <!-- Unnamed () -->
+            <div id="u9768" class="text" style="display: none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u9769" class="ax_default">
+
+          <!-- Unnamed (组合) -->
+          <div id="u9770" class="ax_default">
+
+            <!-- Unnamed (组合) -->
+            <div id="u9771" class="ax_default">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u9772" class="ax_default _一级标题">
+                <div id="u9772_div" class=""></div>
+                <!-- Unnamed () -->
+                <div id="u9773" class="text" style="visibility: visible;">
+                  <p><span>No.4 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX ...</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u9774" class="ax_default _一级标题">
+                <div id="u9774_div" class=""></div>
+                <!-- Unnamed () -->
+                <div id="u9775" class="text" style="visibility: visible;">
+                  <p><span>20ms</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (复选框) -->
+              <div id="u9776" class="ax_default checkbox">
+                <label for="u9776_input">
+                  <!-- Unnamed () -->
+                  <div id="u9777" class="text" style="display: none; visibility: hidden">
+                    <p><span></span></p>
+                  </div>
+                </label>
+                <input id="u9776_input" type="checkbox" value="checkbox"/>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unnamed (水平线) -->
+          <div id="u9778" class="ax_default line">
+            <img id="u9778_img" class="img " src="images/f01请求过程/u6876.png"/>
+            <!-- Unnamed () -->
+            <div id="u9779" class="text" style="display: none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u9780" class="ax_default">
+
+          <!-- Unnamed (组合) -->
+          <div id="u9781" class="ax_default">
+
+            <!-- Unnamed (组合) -->
+            <div id="u9782" class="ax_default">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u9783" class="ax_default _一级标题">
+                <div id="u9783_div" class=""></div>
+                <!-- Unnamed () -->
+                <div id="u9784" class="text" style="visibility: visible;">
+                  <p><span>No.5 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX ...</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u9785" class="ax_default _一级标题">
+                <div id="u9785_div" class=""></div>
+                <!-- Unnamed () -->
+                <div id="u9786" class="text" style="visibility: visible;">
+                  <p><span>20ms</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (复选框) -->
+              <div id="u9787" class="ax_default checkbox">
+                <label for="u9787_input">
+                  <!-- Unnamed () -->
+                  <div id="u9788" class="text" style="display: none; visibility: hidden">
+                    <p><span></span></p>
+                  </div>
+                </label>
+                <input id="u9787_input" type="checkbox" value="checkbox"/>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unnamed (水平线) -->
+          <div id="u9789" class="ax_default line">
+            <img id="u9789_img" class="img " src="images/f01请求过程/u6876.png"/>
+            <!-- Unnamed () -->
+            <div id="u9790" class="text" style="display: none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u9791" class="ax_default">
+
+          <!-- Unnamed (组合) -->
+          <div id="u9792" class="ax_default">
+
+            <!-- Unnamed (组合) -->
+            <div id="u9793" class="ax_default">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u9794" class="ax_default _一级标题">
+                <div id="u9794_div" class=""></div>
+                <!-- Unnamed () -->
+                <div id="u9795" class="text" style="visibility: visible;">
+                  <p><span>No.6 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX ...</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u9796" class="ax_default _一级标题">
+                <div id="u9796_div" class=""></div>
+                <!-- Unnamed () -->
+                <div id="u9797" class="text" style="visibility: visible;">
+                  <p><span>20ms</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (复选框) -->
+              <div id="u9798" class="ax_default checkbox">
+                <label for="u9798_input">
+                  <!-- Unnamed () -->
+                  <div id="u9799" class="text" style="display: none; visibility: hidden">
+                    <p><span></span></p>
+                  </div>
+                </label>
+                <input id="u9798_input" type="checkbox" value="checkbox"/>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unnamed (水平线) -->
+          <div id="u9800" class="ax_default line">
+            <img id="u9800_img" class="img " src="images/f01请求过程/u6876.png"/>
+            <!-- Unnamed () -->
+            <div id="u9801" class="text" style="display: none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u9802" class="ax_default">
+
+          <!-- Unnamed (组合) -->
+          <div id="u9803" class="ax_default">
+
+            <!-- Unnamed (组合) -->
+            <div id="u9804" class="ax_default">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u9805" class="ax_default _一级标题">
+                <div id="u9805_div" class=""></div>
+                <!-- Unnamed () -->
+                <div id="u9806" class="text" style="visibility: visible;">
+                  <p><span>No.7 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX ...</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u9807" class="ax_default _一级标题">
+                <div id="u9807_div" class=""></div>
+                <!-- Unnamed () -->
+                <div id="u9808" class="text" style="visibility: visible;">
+                  <p><span>20ms</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (复选框) -->
+              <div id="u9809" class="ax_default checkbox">
+                <label for="u9809_input">
+                  <!-- Unnamed () -->
+                  <div id="u9810" class="text" style="display: none; visibility: hidden">
+                    <p><span></span></p>
+                  </div>
+                </label>
+                <input id="u9809_input" type="checkbox" value="checkbox"/>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unnamed (水平线) -->
+          <div id="u9811" class="ax_default line">
+            <img id="u9811_img" class="img " src="images/f01请求过程/u6876.png"/>
+            <!-- Unnamed () -->
+            <div id="u9812" class="text" style="display: none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u9813" class="ax_default">
+
+          <!-- Unnamed (组合) -->
+          <div id="u9814" class="ax_default">
+
+            <!-- Unnamed (组合) -->
+            <div id="u9815" class="ax_default">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u9816" class="ax_default _一级标题">
+                <div id="u9816_div" class=""></div>
+                <!-- Unnamed () -->
+                <div id="u9817" class="text" style="visibility: visible;">
+                  <p><span>No.8 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX ...</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u9818" class="ax_default _一级标题">
+                <div id="u9818_div" class=""></div>
+                <!-- Unnamed () -->
+                <div id="u9819" class="text" style="visibility: visible;">
+                  <p><span>20ms</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (复选框) -->
+              <div id="u9820" class="ax_default checkbox">
+                <label for="u9820_input">
+                  <!-- Unnamed () -->
+                  <div id="u9821" class="text" style="display: none; visibility: hidden">
+                    <p><span></span></p>
+                  </div>
+                </label>
+                <input id="u9820_input" type="checkbox" value="checkbox"/>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unnamed (水平线) -->
+          <div id="u9822" class="ax_default line">
+            <img id="u9822_img" class="img " src="images/f01请求过程/u6876.png"/>
+            <!-- Unnamed () -->
+            <div id="u9823" class="text" style="display: none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u9824" class="ax_default">
+
+          <!-- Unnamed (组合) -->
+          <div id="u9825" class="ax_default">
+
+            <!-- Unnamed (组合) -->
+            <div id="u9826" class="ax_default">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u9827" class="ax_default _一级标题">
+                <div id="u9827_div" class=""></div>
+                <!-- Unnamed () -->
+                <div id="u9828" class="text" style="visibility: visible;">
+                  <p><span>No.9 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX ...</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u9829" class="ax_default _一级标题">
+                <div id="u9829_div" class=""></div>
+                <!-- Unnamed () -->
+                <div id="u9830" class="text" style="visibility: visible;">
+                  <p><span>20ms</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (复选框) -->
+              <div id="u9831" class="ax_default checkbox">
+                <label for="u9831_input">
+                  <!-- Unnamed () -->
+                  <div id="u9832" class="text" style="display: none; visibility: hidden">
+                    <p><span></span></p>
+                  </div>
+                </label>
+                <input id="u9831_input" type="checkbox" value="checkbox"/>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unnamed (水平线) -->
+          <div id="u9833" class="ax_default line">
+            <img id="u9833_img" class="img " src="images/f01请求过程/u6876.png"/>
+            <!-- Unnamed () -->
+            <div id="u9834" class="text" style="display: none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u9835" class="ax_default">
+
+          <!-- Unnamed (组合) -->
+          <div id="u9836" class="ax_default">
+
+            <!-- Unnamed (组合) -->
+            <div id="u9837" class="ax_default">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u9838" class="ax_default _一级标题">
+                <div id="u9838_div" class=""></div>
+                <!-- Unnamed () -->
+                <div id="u9839" class="text" style="visibility: visible;">
+                  <p><span>No.10 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX ...</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u9840" class="ax_default _一级标题">
+                <div id="u9840_div" class=""></div>
+                <!-- Unnamed () -->
+                <div id="u9841" class="text" style="visibility: visible;">
+                  <p><span>20ms</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (复选框) -->
+              <div id="u9842" class="ax_default checkbox">
+                <label for="u9842_input">
+                  <!-- Unnamed () -->
+                  <div id="u9843" class="text" style="display: none; visibility: hidden">
+                    <p><span></span></p>
+                  </div>
+                </label>
+                <input id="u9842_input" type="checkbox" value="checkbox"/>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unnamed (水平线) -->
+          <div id="u9844" class="ax_default line">
+            <img id="u9844_img" class="img " src="images/f01请求过程/u6876.png"/>
+            <!-- Unnamed () -->
+            <div id="u9845" class="text" style="display: none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u9846" class="ax_default">
+
+        <!-- Unnamed (组合) -->
+        <div id="u9847" class="ax_default">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u9848" class="ax_default box_1">
+            <div id="u9848_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u9849" class="text" style="visibility: visible;">
+              <p><span>详情：XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (三角形) -->
+          <div id="u9850" class="ax_default box_1">
+            <img id="u9850_img" class="img " src="images/a01性能概览/u868.png"/>
+            <!-- Unnamed () -->
+            <div id="u9851" class="text" style="display: none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u9852" class="ax_default _连接线">
+        <img id="u9852_seg0" class="img " src="images/f08kafka/u9538_seg0.png" alt="u9852_seg0"/>
+        <img id="u9852_seg1" class="img " src="images/f08kafka/u9538_seg1.png" alt="u9852_seg1"/>
+        <img id="u9852_seg2" class="img " src="images/f08kafka/u9538_seg2.png" alt="u9852_seg2"/>
+        <img id="u9852_seg3" class="img " src="images/a01性能概览/u180_seg1.png" alt="u9852_seg3"/>
+        <img id="u9852_seg4" class="img " src="images/f08kafka/u9538_seg4.png" alt="u9852_seg4"/>
+        <!-- Unnamed () -->
+        <div id="u9853" class="text" style="visibility: visible;">
+          <p><span>如果勾选多个，则显示相应数量的曲线</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

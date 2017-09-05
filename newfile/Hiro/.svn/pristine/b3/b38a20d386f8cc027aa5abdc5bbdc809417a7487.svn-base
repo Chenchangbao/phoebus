@@ -1,0 +1,319 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>修改记录</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/修改记录/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/修改记录/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (文本段落) -->
+      <div id="u0" class="ax_default _文本段落">
+        <img id="u0_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1" class="text" style="visibility: visible;">
+          <p><span>修改记录：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (垂直线) -->
+      <div id="u2" class="compound ax_default line" WidgetHeight="1357" WidgetWidth="1" CompoundMode="true">
+        <img id="u2_img" class="singleImg img " src="images/修改记录/u2.png"/>
+        <div id="u2p000" class="ax_vector_shape" WidgetTopLeftX="-0.499264164827079" WidgetTopLeftY="0.5" WidgetTopRightX="-0.499264164827079" WidgetTopRightY="-0.5" WidgetBottomLeftX="0.499264164827079" WidgetBottomLeftY="0.5" WidgetBottomRightX="0.499264164827079" WidgetBottomRightY="-0.5">
+          <img id="u2p000_img" class="img " src="images/修改记录/u2p000.png"/>
+        </div>
+        <div id="u2p001" class="ax_vector_shape" WidgetTopLeftX="0" WidgetTopLeftY="-67.8" WidgetTopRightX="0.05" WidgetTopRightY="-67.8" WidgetBottomLeftX="0" WidgetBottomLeftY="0.05" WidgetBottomRightX="0.05" WidgetBottomRightY="0.05">
+          <img id="u2p001_img" class="img " src="images/修改记录/u2p001.png"/>
+        </div>
+        <!-- Unnamed () -->
+        <div id="u3" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u4" class="ax_default">
+
+        <!-- Unnamed (形状) -->
+        <div id="u5" class="ax_default icon">
+          <img id="u5_img" class="img " src="images/修改记录/u5.png"/>
+          <!-- Unnamed () -->
+          <div id="u6" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (文本段落) -->
+        <div id="u7" class="ax_default _文本段落">
+          <img id="u7_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u8" class="text" style="visibility: visible;">
+            <p><span>2017-07-12</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u9" class="ax_default box_1">
+          <div id="u9_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u10" class="text" style="visibility: visible;">
+            <p><span>胡欣欣 2017-07-12 17:54:30</span></p><p><span>1、告警概览页面，￼红色圆圈里是刷新功能吗？这个列表只显示“未处理事件总数”，与“告警列表”中的 待处理／处理中／已处理 有什么联系或区别？</span></p><p><span>胡欣欣 2017-07-12 17:57:13</span></p><p><span>2、告警分析页面，￼事件源分析曲线图是表示什么？</span></p><p><span>胡欣欣 2017-07-12 17:58:28</span></p><p><span>3、告警分析页面，￼告警对象类型分析曲线图是表示什么？</span></p><p><span>胡欣欣 2017-07-12 17:59:39</span></p><p><span>4、告警分析页面，￼短信发送量和哪个有关联？是不是和告警数目有关联？</span></p><p><span>胡欣欣 2017-07-12 18:00:44</span></p><p><span>5、告警分析页面，￼告警内容分析 和 告警对象分析 两个表是什么内容？</span></p><p><span><br></span></p><p><span>沈建兰 2017-07-12 18:13:11</span></p><p><span>1.是刷新功能；这边是事件，告警列表中是告警</span></p><p><span>2.事件源分析：是统计来自各个源系统的事件个数</span></p><p><span>3.告警对象类型：PM表示物理机，SV表示服务，VM表示虚机</span></p><p><span>4.短信发送量和告警数目没有直接关系</span></p><p><span>5.分别是告警内容的列表，告警对象（IP等）的列表</span></p><p><span><br></span></p><p><span><br></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (文本段落) -->
+        <div id="u11" class="ax_default _文本段落">
+          <img id="u11_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u12" class="text" style="visibility: visible;">
+            <p><span>需求来源：</span></p><p><span>胡欣欣 沈建兰</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u13" class="ax_default">
+
+        <!-- Unnamed (形状) -->
+        <div id="u14" class="ax_default icon">
+          <img id="u14_img" class="img " src="images/修改记录/u5.png"/>
+          <!-- Unnamed () -->
+          <div id="u15" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (文本段落) -->
+        <div id="u16" class="ax_default _文本段落">
+          <img id="u16_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u17" class="text" style="visibility: visible;">
+            <p><span>2017-07-13</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u18" class="ax_default box_1">
+          <div id="u18_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u19" class="text" style="visibility: visible;">
+            <p><span>云迹智能告警平台能做什么？</span></p><p><span>1. 告警压缩，按照系统维度告警，阻止告警风暴</span></p><p><span>2. 可整合公司所有的平台的告警，支持多种告警的发送方式，节约开发成本</span></p><p><span>3. 系统的管理员可以指定系统的告警接收人员，用户也可以添加关注的系统，查看告警</span></p><p><span>4. 细化告警维度：用户可以自定义自己关注的指标类型，只接受该种指标类型的告警</span></p><p><span>5. 对系统所有的告警和事件进行统一管理，同时还可以查看告警发送的状况</span></p><p><span>6. 对系统的告警进行各维度的统计分析</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (文本段落) -->
+        <div id="u20" class="ax_default _文本段落">
+          <img id="u20_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u21" class="text" style="visibility: visible;">
+            <p><span>需求来源：</span></p><p><span>贲红梅</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u22" class="ax_default">
+
+        <!-- Unnamed (形状) -->
+        <div id="u23" class="ax_default icon">
+          <img id="u23_img" class="img " src="images/修改记录/u5.png"/>
+          <!-- Unnamed () -->
+          <div id="u24" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (文本段落) -->
+        <div id="u25" class="ax_default _文本段落">
+          <img id="u25_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u26" class="text" style="visibility: visible;">
+            <p><span>2017-07-14</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u27" class="ax_default box_1">
+          <div id="u27_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u28" class="text" style="visibility: visible;">
+            <p><span>1、A01，告警概览增加告警的系统个数统计，告警概览的点击以卡片为单位；</span></p><p><span>2、A02，不用分tab页；</span></p><p><span>3、A02告警列表和A03事件列表增加“一级中心”、“二级中心”两个搜索条件；</span></p><p><span>4、A04告警概览列表页面删除；</span></p><p><span>5、C02列表，需要重新设计；</span></p><p><span>6、“设置”模块更名为“告警配置”，并移到左侧菜单栏。</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (文本段落) -->
+        <div id="u29" class="ax_default _文本段落">
+          <img id="u29_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u30" class="text" style="visibility: visible;">
+            <p><span>需求来源：</span></p><p><span>沈建兰 张晞</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u31" class="ax_default">
+
+        <!-- Unnamed (形状) -->
+        <div id="u32" class="ax_default icon">
+          <img id="u32_img" class="img " src="images/修改记录/u5.png"/>
+          <!-- Unnamed () -->
+          <div id="u33" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (文本段落) -->
+        <div id="u34" class="ax_default _文本段落">
+          <img id="u34_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u35" class="text" style="visibility: visible;">
+            <p><span>2017-07-19</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u36" class="ax_default box_1">
+          <div id="u36_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u37" class="text" style="visibility: visible;">
+            <p><span>贲红梅：</span></p><p><span>1. 告警内容可以分类，每种类型的告警即使不在1个系统也许有同样的解决方案</span><span style="color:#FF0000;">（暂时不实现）</span><span></span></p><p><span>2. 告警要有反馈，通过短信通道给出反馈，告警自动关闭，告警要有响应时间的反馈</span><span style="color:#FF0000;">（暂时不实现）</span><span></span></p><p><span>3. 告警升级：语音播报，自动拨号，发送给领导</span><span style="color:#FF0000;">（暂时不实现）</span><span></span></p><p><span>4. 恢复时间（按系统，按中心）</span><span style="color:#FF0000;">（已增加）</span><span></span></p><p><span>5. 告警对象有：物理机，虚机，服务，网络</span><span style="color:#FF0000;">（已更改）</span><span></span></p><p><span>6. 告警针对应用有环比和同比，恢复时间也有</span><span style="color:#FF0000;">（待确定）</span></p><p><span style="color:#FF0000;"><br></span></p><p><span>胡欣欣：</span></p><p><span>1、A01页面，增加告警恢复时间的排名，两个维度：系统、一级中心。针对告警对象类型，增加“网络”；</span></p><p><span>2、增加A02页面，单个系统的统计分析;</span></p><p><span>3、A03页面，增加五个tab切换，分别为：所有告警／超时关闭／自动恢复／人为关闭／内部关闭；</span></p><p><span>4、针对任何的“事件”，增加“决策分析”操作；</span></p><p><span>5、C01页面，删除列表中每行前置的多选框，全局操作增加“取消关注”，沿用已有系统的操作方式。</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (文本段落) -->
+        <div id="u38" class="ax_default _文本段落">
+          <img id="u38_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u39" class="text" style="visibility: visible;">
+            <p><span>需求来源：</span></p><p><span>第二次评审会议</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u40" class="ax_default">
+
+        <!-- Unnamed (形状) -->
+        <div id="u41" class="ax_default icon">
+          <img id="u41_img" class="img " src="images/修改记录/u5.png"/>
+          <!-- Unnamed () -->
+          <div id="u42" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (文本段落) -->
+        <div id="u43" class="ax_default _文本段落">
+          <img id="u43_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u44" class="text" style="visibility: visible;">
+            <p><span>2017-07-25</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u45" class="ax_default box_1">
+          <div id="u45_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u46" class="text" style="visibility: visible;">
+            <p><span>A03告警列表和A04事件列表页面中，将搜索与tab切换的层级调换，即tab是在搜索结果里面进行切换</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (文本段落) -->
+        <div id="u47" class="ax_default _文本段落">
+          <img id="u47_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u48" class="text" style="visibility: visible;">
+            <p><span>需求来源：</span></p><p><span>张晞</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u49" class="ax_default">
+
+        <!-- Unnamed (形状) -->
+        <div id="u50" class="ax_default icon">
+          <img id="u50_img" class="img " src="images/修改记录/u5.png"/>
+          <!-- Unnamed () -->
+          <div id="u51" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (文本段落) -->
+        <div id="u52" class="ax_default _文本段落">
+          <img id="u52_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u53" class="text" style="visibility: visible;">
+            <p><span>2017-08-01</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u54" class="ax_default box_1">
+          <div id="u54_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u55" class="text" style="visibility: visible;">
+            <p><span>A02页面修改，删除与单个系统无关的信息：其他系统的实时统计卡片、告警排名（系统、一级中心）、源系统排名、告警恢复排名（系统、一级中心）。</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (文本段落) -->
+        <div id="u56" class="ax_default _文本段落">
+          <img id="u56_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u57" class="text" style="visibility: visible;">
+            <p><span>需求来源：</span></p><p><span>高保真评审会议</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

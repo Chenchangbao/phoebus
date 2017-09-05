@@ -1,0 +1,475 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>A10异常回演－服务层</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/a10异常回演－服务层/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/a10异常回演－服务层/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2552" class="ax_default box_1">
+        <div id="u2552_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2553" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2554" class="ax_default _一级标题">
+        <div id="u2554_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2555" class="text" style="visibility: visible;">
+          <p style="font-size:20px;"><span>异常回演</span><span style="font-size:12px;">（这里是异常IP地址）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2556" class="ax_default _一级标题">
+        <div id="u2556_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2557" class="text" style="visibility: visible;">
+          <p><span>基本信息</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2558" class="ax_default box_1">
+        <div id="u2558_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2559" class="text" style="visibility: visible;">
+          <p><span>服务类型：RSF</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2560" class="ax_default _一级标题">
+        <div id="u2560_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2561" class="text" style="visibility: visible;">
+          <p><span>详情</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2562" class="ax_default box_1">
+        <div id="u2562_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2563" class="text" style="visibility: visible;">
+          <p><span>服务名称：：XXXXXXXXXXXXXXXXXXXXXXXXX</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2564" class="ax_default box_1">
+        <div id="u2564_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2565" class="text" style="visibility: visible;">
+          <p><span>异常种类：XXXXXXXXXXXXXXXXXXXXXXXXX</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u2566" class="ax_default">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u2567" class="ax_default box_1">
+          <div id="u2567_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u2568" class="text" style="visibility: visible;">
+            <p><span>操作系统信息：XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u2569" class="ax_default">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u2570" class="ax_default box_1">
+          <div id="u2570_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u2571" class="text" style="visibility: visible;">
+            <p><span>内核统计信息：XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u2572" class="ax_default">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u2573" class="ax_default box_1">
+          <div id="u2573_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u2574" class="text" style="visibility: visible;">
+            <p><span>CPU核数：XXX</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u2575" class="ax_default">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u2576" class="ax_default box_1">
+          <div id="u2576_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u2577" class="text" style="visibility: visible;">
+            <p><span>硬盘数：XXX</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u2578" class="ax_default">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u2579" class="ax_default box_1">
+          <div id="u2579_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u2580" class="text" style="visibility: visible;">
+            <p><span>硬盘总容量：XXX</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u2581" class="ax_default">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u2582" class="ax_default box_1">
+          <div id="u2582_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u2583" class="text" style="visibility: visible;">
+            <p><span>磁盘类型：XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u2584" class="ax_default">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u2585" class="ax_default box_1">
+          <div id="u2585_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u2586" class="text" style="visibility: visible;">
+            <p><span>网卡名称：XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u2587" class="ax_default">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u2588" class="ax_default box_1">
+          <div id="u2588_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u2589" class="text" style="visibility: visible;">
+            <p><span>网络传送最大数据包大小：XXXXXXXXX</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u2590" class="ax_default">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u2591" class="ax_default box_1">
+          <div id="u2591_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u2592" class="text" style="visibility: visible;">
+            <p><span>物理内存大小：XXXXXXXX</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u2593" class="ax_default">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u2594" class="ax_default box_1">
+          <div id="u2594_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u2595" class="text" style="visibility: visible;">
+            <p><span>数据库信息：XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u2596" class="ax_default">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u2597" class="ax_default box_1">
+          <div id="u2597_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u2598" class="text" style="visibility: visible;">
+            <p><span>Redis：XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2599" class="ax_default box_1">
+        <div id="u2599_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2600" class="text" style="visibility: visible;">
+          <p><span>推荐</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u2601" class="ax_default">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u2602" class="ax_default box_1">
+          <div id="u2602_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u2603" class="text" style="visibility: visible;">
+            <p><span>静态数据</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u2604" class="ax_default box_1">
+          <div id="u2604_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u2605" class="text" style="visibility: visible;">
+            <p><span>动态数据</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2606" class="ax_default box_1">
+        <div id="u2606_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2607" class="text" style="visibility: visible;">
+          <p><span>推荐</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u2608" class="ax_default">
+
+        <!-- Unnamed (组合) -->
+        <div id="u2609" class="ax_default">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u2610" class="ax_default box_1">
+            <div id="u2610_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u2611" class="text" style="visibility: visible;">
+              <p><span>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX（这里是推荐信息）</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (三角形) -->
+          <div id="u2612" class="ax_default box_1">
+            <img id="u2612_img" class="img " src="images/a07系统异常－服务层/u1984.png"/>
+            <!-- Unnamed () -->
+            <div id="u2613" class="text" style="display: none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2614" class="ax_default _一级标题">
+        <div id="u2614_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2615" class="text" style="visibility: visible;">
+          <p><span>详情</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u2616" class="ax_default">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u2617" class="ax_default _白底黑字">
+          <div id="u2617_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u2618" class="text" style="visibility: visible;">
+            <p><span>静态数据</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u2619" class="ax_default _黑底白字">
+          <div id="u2619_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u2620" class="text" style="visibility: visible;">
+            <p><span>动态数据</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u2621" class="ax_default _白底黑字">
+          <div id="u2621_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u2622" class="text" style="visibility: visible;">
+            <p><span>XXX</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u2623" class="ax_default _白底黑字">
+          <div id="u2623_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u2624" class="text" style="visibility: visible;">
+            <p><span>XXX</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u2625" class="ax_default _白底黑字">
+          <div id="u2625_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u2626" class="text" style="visibility: visible;">
+            <p><span>XXX</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (占位符) -->
+      <div id="u2627" class="ax_default placeholder">
+        <img id="u2627_img" class="img " src="images/a10异常回演－服务层/u2627.png"/>
+        <!-- Unnamed () -->
+        <div id="u2628" class="text" style="visibility: visible;">
+          <p><span>a)&nbsp; &nbsp;&nbsp; 磁盘IO速度、传输读写比率</span></p><p><span>b)&nbsp; &nbsp;&nbsp; 内存使用量</span></p><p><span>c)&nbsp; &nbsp;&nbsp; CPU使用率</span></p><p><span>d)&nbsp; &nbsp;&nbsp; Swap数据</span></p><p><span>e)&nbsp; &nbsp;&nbsp; 消耗资源最多进程</span></p><p><span>f)&nbsp; &nbsp;&nbsp; 网络IO，传输读写比率</span></p><p><span>g)&nbsp; &nbsp;&nbsp; FULLGC，Deadlock数据</span></p><p><span>h)&nbsp; &nbsp;&nbsp; 其他有意义的数据</span></p><p><span><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u2629" class="ax_default _连接线">
+        <img id="u2629_seg0" class="img " src="images/a10异常回演－服务层/u2629_seg0.png" alt="u2629_seg0"/>
+        <img id="u2629_seg1" class="img " src="images/a10异常回演－服务层/u2629_seg1.png" alt="u2629_seg1"/>
+        <img id="u2629_seg2" class="img " src="images/a01概览/u96_seg1.png" alt="u2629_seg2"/>
+        <img id="u2629_seg3" class="img " src="images/a03决策事件－主机层/u906_seg2.png" alt="u2629_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u2630" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2631" class="ax_default box_1">
+        <div id="u2631_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2632" class="text" style="visibility: visible;">
+          <p><span>异常时间：2017-08-10 12:00:00</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2633" class="ax_default box_1">
+        <div id="u2633_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2634" class="text" style="visibility: visible;">
+          <p><span>异常信息：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2635" class="ax_default box_1">
+        <div id="u2635_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2636" class="text" style="visibility: visible;">
+          <p><span>异常IP：11.11.11.11</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2637" class="ax_default box_1">
+        <div id="u2637_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2638" class="text" style="visibility: visible;">
+          <p><span>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2639" class="ax_default box_1">
+        <div id="u2639_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2640" class="text" style="visibility: visible;">
+          <p><span>更多</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u2641" class="ax_default">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u2642" class="ax_default box_1">
+          <div id="u2642_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u2643" class="text" style="visibility: visible;">
+            <p><span>点击“更多”显示全部异常信息</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u2644" class="ax_default _连接线">
+        <img id="u2644_seg0" class="img " src="images/a10异常回演－服务层/u2644_seg0.png" alt="u2644_seg0"/>
+        <img id="u2644_seg1" class="img " src="images/a01概览/u96_seg1.png" alt="u2644_seg1"/>
+        <img id="u2644_seg2" class="img " src="images/a01概览/u96_seg2.png" alt="u2644_seg2"/>
+        <!-- Unnamed () -->
+        <div id="u2645" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

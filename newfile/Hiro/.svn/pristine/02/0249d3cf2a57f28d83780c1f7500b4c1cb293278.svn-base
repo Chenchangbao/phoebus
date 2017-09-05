@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>修改记录</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/修改记录/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/修改记录/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (文本段落) -->
+      <div id="u0" class="ax_default _文本段落">
+        <img id="u0_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1" class="text" style="visibility: visible;">
+          <p><span>修改记录：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (垂直线) -->
+      <div id="u2" class="compound ax_default line" WidgetHeight="476" WidgetWidth="1" CompoundMode="true">
+        <img id="u2_img" class="singleImg img " src="images/修改记录/u2.png"/>
+        <div id="u2p000" class="ax_vector_shape" WidgetTopLeftX="-0.49895178197065" WidgetTopLeftY="0.25" WidgetTopRightX="-0.49895178197065" WidgetTopRightY="-0.25" WidgetBottomLeftX="0.49895178197065" WidgetBottomLeftY="0.25" WidgetBottomRightX="0.49895178197065" WidgetBottomRightY="-0.25">
+          <img id="u2p000_img" class="img " src="images/修改记录/u2p000.png"/>
+        </div>
+        <div id="u2p001" class="ax_vector_shape" WidgetTopLeftX="0" WidgetTopLeftY="-23.75" WidgetTopRightX="0.05" WidgetTopRightY="-23.75" WidgetBottomLeftX="0" WidgetBottomLeftY="0.05" WidgetBottomRightX="0.05" WidgetBottomRightY="0.05">
+          <img id="u2p001_img" class="img " src="images/修改记录/u2p001.png"/>
+        </div>
+        <!-- Unnamed () -->
+        <div id="u3" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u4" class="ax_default">
+
+        <!-- Unnamed (形状) -->
+        <div id="u5" class="ax_default icon">
+          <img id="u5_img" class="img " src="images/修改记录/u5.png"/>
+          <!-- Unnamed () -->
+          <div id="u6" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (文本段落) -->
+        <div id="u7" class="ax_default _文本段落">
+          <img id="u7_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u8" class="text" style="visibility: visible;">
+            <p><span>2017-07-28</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u9" class="ax_default box_1">
+          <div id="u9_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u10" class="text" style="visibility: visible;">
+            <p><span>1、A01，在已有的四个性能维度（请求过程、SQL、NoSQL、JVMs）基础上再选取选取两个性能维度：Kafka、HttpClient；</span></p><p><span>2、最大耗时不是一条曲线，而是一个值；</span></p><p><span>3、在A01页面，点击系统卡片后跳转至性能详情，展示某个系统的某个节点的六个性能维度的数据（请求过程、SQL、NoSQL、JVMs、Kafka、HttpClient），每个节点只选取某个性能维度的最大值；</span></p><p><span>4、针对请求过程、SQL、NoSQL、JVMs四个性能的详情页面，排序条件增加一项“异常”，如果没有异常时，给出空值页。</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (文本段落) -->
+        <div id="u11" class="ax_default _文本段落">
+          <img id="u11_img" class="img " src="resources/images/transparent.gif"/>
+          <!-- Unnamed () -->
+          <div id="u12" class="text" style="visibility: visible;">
+            <p><span>需求来源：</span></p><p><span>第一次评审会议</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
